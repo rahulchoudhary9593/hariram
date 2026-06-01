@@ -27,31 +27,73 @@ document.addEventListener("DOMContentLoaded", () => {
         })
         .catch(error => console.error('Error loading footer:', error));
 
-    window.toggleLang = function (lang) {
-        const currentPath = window.location.pathname;
-        const parts = currentPath.split('/');
-        const filename = parts.pop();
-        const targetFile = filename === '' ? 'index.html' : filename;
+    // Helper to check if current page is Hindi
+    function isPageHindi() {
+        const path = window.location.pathname;
+        const segments = path.split('/').filter(Boolean);
+        if (segments.length === 0) return false;
 
-        const currentDir = parts[parts.length - 1];
-        const isHindiDir = currentDir === 'hi';
+        const lastSegment = segments[segments.length - 1];
+        if (lastSegment === 'hi') return true;
 
-        if (lang === 'hi' && !isHindiDir) {
-            parts.push('hi', targetFile);
-            window.location.href = parts.join('/');
-        } else if (lang === 'en' && isHindiDir) {
-            parts.pop(); // Remove 'hi' directory
-            parts.push(targetFile);
-            window.location.href = parts.join('/');
+        if (segments.length >= 2) {
+            const parentSegment = segments[segments.length - 2];
+            if (parentSegment === 'hi') return true;
         }
+        return false;
+    }
+
+    window.toggleLang = function (lang) {
+        // Save language preference to local storage
+        localStorage.setItem('preferredLanguage', lang);
+
+        const path = window.location.pathname;
+        const segments = path.split('/').filter(Boolean);
+
+        // Find current filename
+        let filename = 'index.html';
+        if (segments.length > 0) {
+            const last = segments[segments.length - 1];
+            if (last !== 'hi') {
+                filename = last.includes('.') ? last : 'index.html';
+            }
+        }
+
+        let newPath = '';
+        if (window.location.protocol === 'file:') {
+            // Local file routing
+            let baseSegments = [];
+            const hiIndex = segments.indexOf('hi');
+            if (hiIndex !== -1) {
+                baseSegments = segments.slice(0, hiIndex);
+            } else {
+                baseSegments = segments.slice(0, segments.length - 1);
+            }
+
+            if (lang === 'hi') {
+                newPath = '/' + [...baseSegments, 'hi', filename].join('/');
+            } else {
+                newPath = '/' + [...baseSegments, filename].join('/');
+            }
+        } else {
+            // Web server (Vercel) routing
+            if (lang === 'hi') {
+                newPath = `/hi/${filename}`;
+            } else {
+                newPath = `/${filename}`;
+            }
+        }
+
+        window.location.href = newPath;
     };
 
-    // Website load hote hi Hindi open karo
-    const currentPath = window.location.pathname;
-    const parts = currentPath.split('/');
-    const currentDir = parts[parts.length - 2];
+    // Website load hote hi preferred language open karo (default Hindi)
+    const isHindi = isPageHindi();
+    const preferredLanguage = localStorage.getItem('preferredLanguage');
 
-    if (currentDir !== 'hi') {
+    if (!isHindi && preferredLanguage !== 'en') {
+        // Default to Hindi if user hasn't explicitly set preference to English
+        localStorage.setItem('preferredLanguage', 'hi');
         toggleLang('hi');
         return;
     }
@@ -107,9 +149,7 @@ document.addEventListener("DOMContentLoaded", () => {
         });
 
         // Highlight Active Language Button
-        const parts = window.location.pathname.split('/');
-        const currentDir = parts[parts.length - 2] || '';
-        const isHindi = currentDir === 'hi';
+        const isHindi = isPageHindi();
         const btnEn = document.getElementById('lang-btn-en');
         const btnHi = document.getElementById('lang-btn-hi');
         const btnMobEn = document.getElementById('lang-btn-mob-en');
