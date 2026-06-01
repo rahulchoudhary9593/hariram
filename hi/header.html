@@ -28,10 +28,12 @@
                 <a href="projects.html"
                     class="nav-link text-secondary hover:text-primary font-medium transition-colors">प्रोजेक्ट्स</a>
                 
-                <!-- Desktop Language Switcher (Glossy) -->
-                <div class="relative inline-flex items-center bg-white/50 backdrop-blur-md rounded-full p-1 border border-white/80 shadow-[inset_0_1px_2px_rgba(255,255,255,1),0_2px_5px_rgba(0,0,0,0.05)]">
-                    <button onclick="toggleLang('en')" id="lang-btn-en" class="px-3 py-1.5 rounded-full text-xs font-bold text-dark bg-gradient-to-b from-white to-gray-50 shadow-[0_2px_4px_rgba(0,0,0,0.08),inset_0_1px_0_white] border border-gray-100 transition-all">EN</button>
-                    <button onclick="toggleLang('hi')" id="lang-btn-hi" class="px-3 py-1.5 rounded-full text-xs font-medium text-secondary hover:text-dark transition-all">हिं</button>
+                <!-- Desktop Language Switcher (Fixed Active/Inactive Design) -->
+                <div class="relative inline-flex items-center bg-gray-200/60 backdrop-blur-md rounded-full p-1 shadow-inner border border-gray-300/50">
+                    <!-- Active Button (EN) -->
+                    <button onclick="toggleLang('en')" id="lang-btn-en" class="px-3.5 py-1.5 rounded-full text-xs font-extrabold text-black bg-white shadow-[0_2px_5px_rgba(0,0,0,0.15)] transition-all duration-300 z-10">EN</button>
+                    <!-- Inactive Button (HI) -->
+                    <button onclick="toggleLang('hi')" id="lang-btn-hi" class="px-3.5 py-1.5 rounded-full text-xs font-medium text-gray-500 hover:text-black transition-all duration-300">हिं</button>
                 </div>
 
                 <a href="contact.html"
@@ -43,10 +45,12 @@
             <!-- Mobile Controls (Language Switcher + Hamburger) -->
             <div class="md:hidden flex items-center gap-3">
                 
-                <!-- Mobile Language Switcher (Glossy) -->
-                <div class="relative inline-flex items-center bg-white/60 backdrop-blur-md rounded-full p-1 border border-white shadow-[inset_0_1px_2px_rgba(255,255,255,1),0_2px_5px_rgba(0,0,0,0.05)]">
-                    <button onclick="toggleLang('en')" id="lang-btn-mob-en" class="px-3 py-1 text-xs font-bold text-dark bg-gradient-to-b from-white to-gray-50 shadow-[0_2px_4px_rgba(0,0,0,0.08),inset_0_1px_0_white] border border-gray-100 transition-all rounded-full">EN</button>
-                    <button onclick="toggleLang('hi')" id="lang-btn-mob-hi" class="px-3 py-1 text-xs font-medium text-secondary hover:text-dark transition-all rounded-full">हिं</button>
+                <!-- Mobile Language Switcher (Fixed Active/Inactive Design) -->
+                <div class="relative inline-flex items-center bg-gray-200/60 backdrop-blur-md rounded-full p-1 shadow-inner border border-gray-300/50">
+                    <!-- Active Button (EN) -->
+                    <button onclick="toggleLang('en')" id="lang-btn-mob-en" class="px-3 py-1.5 rounded-full text-xs font-extrabold text-black bg-white shadow-[0_2px_5px_rgba(0,0,0,0.15)] transition-all duration-300 z-10">EN</button>
+                    <!-- Inactive Button (HI) -->
+                    <button onclick="toggleLang('hi')" id="lang-btn-mob-hi" class="px-3 py-1.5 rounded-full text-xs font-medium text-gray-500 hover:text-black transition-all duration-300">हिं</button>
                 </div>
 
                 <!-- Hamburger Button (Glossy) -->
