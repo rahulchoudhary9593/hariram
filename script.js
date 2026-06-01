@@ -198,12 +198,22 @@ document.addEventListener("DOMContentLoaded", () => {
             const href = link.getAttribute('href');
             if (href) {
                 const linkPageName = getCleanPageName(href);
+                const svg = link.querySelector('svg');
+                const span = link.querySelector('span');
+                const iconBg = link.querySelector('div');
+
                 if (linkPageName === currentPageName) {
-                    link.classList.remove('text-secondary', 'hover:bg-gray-50');
-                    link.classList.add('text-primary', 'bg-gray-50');
+                    link.classList.remove('bg-white/60');
+                    link.classList.add('bg-white', 'shadow-md');
+                    if(iconBg) { iconBg.classList.add('bg-primary/10', 'text-primary'); iconBg.classList.remove('bg-gray-50'); }
+                    if(svg) { svg.classList.add('text-primary'); svg.classList.remove('text-dark'); }
+                    if(span) { span.classList.add('text-primary'); span.classList.remove('text-dark'); }
                 } else {
-                    link.classList.add('text-secondary', 'hover:bg-gray-50');
-                    link.classList.remove('text-primary', 'bg-gray-50');
+                    link.classList.add('bg-white/60');
+                    link.classList.remove('bg-white', 'shadow-md');
+                    if(iconBg) { iconBg.classList.remove('bg-primary/10', 'text-primary'); iconBg.classList.add('bg-gray-50'); }
+                    if(svg) { svg.classList.remove('text-primary'); svg.classList.add('text-dark'); }
+                    if(span) { span.classList.remove('text-primary'); span.classList.add('text-dark'); }
                 }
             }
         });
