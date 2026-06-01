@@ -1,32 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
 
-    // Load Header
-    fetch('header.html')
-        .then(response => {
-            if (!response.ok) throw new Error('Network response was not ok');
-            return response.text();
-        })
-        .then(data => {
-            document.getElementById('header-container').innerHTML = data;
-            initializeHeaderFunctions();
-        })
-        .catch(error => console.error('Error loading header:', error));
-
-    // Load Footer
-    fetch('footer.html')
-        .then(response => {
-            if (!response.ok) throw new Error('Network response was not ok');
-            return response.text();
-        })
-        .then(data => {
-            document.getElementById('footer-container').innerHTML = data;
-            const yearEl = document.getElementById('year');
-            if (yearEl) {
-                yearEl.textContent = new Date().getFullYear();
-            }
-        })
-        .catch(error => console.error('Error loading footer:', error));
-
     // Helper to check if current page is Hindi
     function isPageHindi() {
         const path = window.location.pathname;
@@ -43,8 +16,64 @@ document.addEventListener("DOMContentLoaded", () => {
         return false;
     }
 
+    const isHindi = isPageHindi();
+
+    // Determine base paths dynamically for both local file:/// and Vercel domains
+    let basePath = '';
+    if (window.location.protocol === 'file:') {
+        const path = window.location.pathname;
+        const segments = path.split('/').filter(Boolean);
+        const hiIndex = segments.indexOf('hi');
+        let baseSegments = [];
+        if (hiIndex !== -1) {
+            baseSegments = segments.slice(0, hiIndex);
+        } else {
+            baseSegments = segments.slice(0, segments.length - 1);
+        }
+        basePath = '/' + baseSegments.join('/') + '/';
+    } else {
+        basePath = '/';
+    }
+
+    const langBase = isHindi ? `${basePath}hi/` : basePath;
+
+    // Helper to clean file names for link comparison
+    function getCleanPageName(path) {
+        const name = path.split('/').pop() || 'index';
+        if (name === 'hi' || name === '') return 'index';
+        return name.replace('.html', '');
+    }
+
+    // Function to update all local links on the page to match active language structure
+    function updateAllPageLinks() {
+        const links = document.querySelectorAll('a');
+        links.forEach(link => {
+            const href = link.getAttribute('href');
+            if (!href || href.startsWith('http') || href.startsWith('#') || href.startsWith('mailto:') || href.startsWith('tel:') || href.startsWith('javascript:')) {
+                return;
+            }
+
+            const filename = href.split('/').pop();
+            let targetHref = langBase + filename;
+
+            if (window.location.protocol !== 'file:') {
+                // Strip .html extension on web servers for clean URLs
+                targetHref = targetHref.replace('.html', '');
+                if (targetHref.endsWith('/index')) {
+                    targetHref = targetHref.slice(0, -5);
+                }
+                if (targetHref.endsWith('/hi/')) {
+                    targetHref = targetHref.slice(0, -1);
+                }
+                if (targetHref === '') {
+                    targetHref = '/';
+                }
+            }
+            link.setAttribute('href', targetHref);
+        });
+    }
+
     window.toggleLang = function (lang) {
-        // Save language preference to local storage
         localStorage.setItem('preferredLanguage', lang);
 
         const path = window.location.pathname;
@@ -55,7 +84,7 @@ document.addEventListener("DOMContentLoaded", () => {
         if (segments.length > 0) {
             const last = segments[segments.length - 1];
             if (last !== 'hi') {
-                filename = last.includes('.') ? last : 'index.html';
+                filename = last.includes('.') ? last : (last + '.html');
             }
         }
 
@@ -82,13 +111,23 @@ document.addEventListener("DOMContentLoaded", () => {
             } else {
                 newPath = `/${filename}`;
             }
+            // Strip .html for clean urls
+            newPath = newPath.replace('.html', '');
+            if (newPath.endsWith('/index')) {
+                newPath = newPath.slice(0, -5);
+            }
+            if (newPath.endsWith('/hi/')) {
+                newPath = newPath.slice(0, -1);
+            }
+            if (newPath === '') {
+                newPath = '/';
+            }
         }
 
         window.location.href = newPath;
     };
 
     // Website load hote hi preferred language open karo (default Hindi)
-    const isHindi = isPageHindi();
     const preferredLanguage = localStorage.getItem('preferredLanguage');
 
     if (!isHindi && preferredLanguage !== 'en') {
@@ -98,27 +137,74 @@ document.addEventListener("DOMContentLoaded", () => {
         return;
     }
 
-    function initializeHeaderFunctions() {
-        // Highlight active link based on current page
-        const currentPage = window.location.pathname.split("/").pop() || 'index.html';
+    // Dynamic headers and footers path selection
+    const headerUrl = isHindi ? `${basePath}hi/header.html` : `${basePath}header.html`;
+    const footerUrl = isHindi ? `${basePath}hi/footer.html` : `${basePath}footer.html`;
 
-        // Desktop Links
+    // Load Header
+    fetch(headerUrl)
+        .then(response => {
+            if (!response.ok) throw new Error('Network response was not ok');
+            return response.text();
+        })
+        .then(data => {
+            document.getElementById('header-container').innerHTML = data;
+            updateAllPageLinks(); // Update header links immediately
+            initializeHeaderFunctions();
+        })
+        .catch(error => console.error('Error loading header:', error));
+
+    // Load Footer
+    fetch(footerUrl)
+        .then(response => {
+            if (!response.ok) throw new Error('Network response was not ok');
+            return response.text();
+        })
+        .then(data => {
+            document.getElementById('footer-container').innerHTML = data;
+            const yearEl = document.getElementById('year');
+            if (yearEl) {
+                yearEl.textContent = new Date().getFullYear();
+            }
+            updateAllPageLinks(); // Update footer links immediately
+        })
+        .catch(error => console.error('Error loading footer:', error));
+
+    // Update body links that already exist in HTML
+    updateAllPageLinks();
+
+    function initializeHeaderFunctions() {
+        const currentPageName = getCleanPageName(window.location.pathname);
+
+        // Desktop Links active class highlighting
         const desktopLinks = document.querySelectorAll('.nav-link');
         desktopLinks.forEach(link => {
             const href = link.getAttribute('href');
-            if (href === currentPage) {
-                link.classList.remove('text-secondary');
-                link.classList.add('text-primary');
+            if (href) {
+                const linkPageName = getCleanPageName(href);
+                if (linkPageName === currentPageName) {
+                    link.classList.remove('text-secondary');
+                    link.classList.add('text-primary');
+                } else {
+                    link.classList.add('text-secondary');
+                    link.classList.remove('text-primary');
+                }
             }
         });
 
-        // Mobile Links
+        // Mobile Links active class highlighting
         const mobileLinks = document.querySelectorAll('.mobile-nav-link');
         mobileLinks.forEach(link => {
             const href = link.getAttribute('href');
-            if (href === currentPage) {
-                link.classList.remove('text-secondary', 'hover:bg-gray-50');
-                link.classList.add('text-primary', 'bg-gray-50');
+            if (href) {
+                const linkPageName = getCleanPageName(href);
+                if (linkPageName === currentPageName) {
+                    link.classList.remove('text-secondary', 'hover:bg-gray-50');
+                    link.classList.add('text-primary', 'bg-gray-50');
+                } else {
+                    link.classList.add('text-secondary', 'hover:bg-gray-50');
+                    link.classList.remove('text-primary', 'bg-gray-50');
+                }
             }
         });
 
@@ -149,7 +235,6 @@ document.addEventListener("DOMContentLoaded", () => {
         });
 
         // Highlight Active Language Button
-        const isHindi = isPageHindi();
         const btnEn = document.getElementById('lang-btn-en');
         const btnHi = document.getElementById('lang-btn-hi');
         const btnMobEn = document.getElementById('lang-btn-mob-en');
@@ -171,6 +256,3 @@ document.addEventListener("DOMContentLoaded", () => {
         }
     }
 });
-
-
-
