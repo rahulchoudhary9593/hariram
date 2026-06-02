@@ -46,7 +46,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // Function to update all local links on the page to match active language structure
     function updateAllPageLinks() {
-        const links = document.querySelectorAll('a');
+        const links = document.querySelectorAll('a:not([data-processed])');
         links.forEach(link => {
             const href = link.getAttribute('href');
             if (!href || href.startsWith('http') || href.startsWith('#') || href.startsWith('mailto:') || href.startsWith('tel:') || href.startsWith('javascript:')) {
@@ -70,6 +70,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 }
             }
             link.setAttribute('href', targetHref);
+            link.dataset.processed = 'true';
         });
     }
 
