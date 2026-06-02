@@ -223,11 +223,27 @@ document.addEventListener("DOMContentLoaded", () => {
         if (menuBtn) {
             menuBtn.addEventListener('click', function () {
                 const menu = document.getElementById('mobile-menu');
+                const iconHamburger = document.getElementById('icon-hamburger');
+                const iconClose = document.getElementById('icon-close');
+
                 if (menu.classList.contains('hidden')) {
                     menu.classList.remove('hidden');
+                    // Small delay to allow display block to apply before animating opacity
                     setTimeout(() => menu.classList.add('opacity-100', 'translate-y-0'), 10);
+                    
+                    if (iconHamburger) iconHamburger.classList.add('hidden');
+                    if (iconClose) iconClose.classList.remove('hidden');
+                    document.body.classList.add('overflow-hidden');
+                    menuBtn.setAttribute('aria-expanded', 'true');
                 } else {
-                    menu.classList.add('hidden');
+                    menu.classList.remove('opacity-100', 'translate-y-0');
+                    // Wait for transition to finish before hiding
+                    setTimeout(() => menu.classList.add('hidden'), 300);
+
+                    if (iconHamburger) iconHamburger.classList.remove('hidden');
+                    if (iconClose) iconClose.classList.add('hidden');
+                    document.body.classList.remove('overflow-hidden');
+                    menuBtn.setAttribute('aria-expanded', 'false');
                 }
             });
         }
@@ -250,8 +266,8 @@ document.addEventListener("DOMContentLoaded", () => {
         const btnMobEn = document.getElementById('lang-btn-mob-en');
         const btnMobHi = document.getElementById('lang-btn-mob-hi');
 
-        const activeClasses = ['bg-dark', 'text-white', 'shadow-sm'];
-        const inactiveClasses = ['text-secondary', 'hover:text-dark'];
+        const activeClasses = ['font-extrabold', 'text-black', 'bg-white', 'shadow-[0_2px_5px_rgba(0,0,0,0.15)]', 'z-10'];
+        const inactiveClasses = ['font-medium', 'text-gray-500', 'hover:text-black'];
 
         if (isHindi) {
             if (btnHi) { btnHi.classList.add(...activeClasses); btnHi.classList.remove(...inactiveClasses); }
