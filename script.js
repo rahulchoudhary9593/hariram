@@ -282,4 +282,139 @@ document.addEventListener("DOMContentLoaded", () => {
             if (btnMobHi) { btnMobHi.classList.add(...inactiveClasses); btnMobHi.classList.remove(...activeClasses); }
         }
     }
+
+    // --- Web3Forms Contact Form Integration & Animations ---
+    const contactForm = document.getElementById('contact-form');
+    if (contactForm) {
+        
+        // Lightweight Confetti Trigger
+        function triggerConfetti(container) {
+            const colors = ['#FBBF24', '#25D366', '#3B82F6', '#EF4444', '#A855F7'];
+            for (let i = 0; i < 60; i++) {
+                const confetti = document.createElement('div');
+                confetti.className = 'absolute w-2 h-2 rounded-sm';
+                confetti.style.backgroundColor = colors[Math.floor(Math.random() * colors.length)];
+                confetti.style.left = '50%';
+                confetti.style.top = '50%';
+                
+                const tx = (Math.random() - 0.5) * 400;
+                const ty = (Math.random() - 0.5) * 400 - 100;
+                const rot = Math.random() * 360;
+                
+                // Using Web Animations API for high performance, pure JS animation
+                confetti.animate([
+                    { transform: 'translate(-50%, -50%) scale(0) rotate(0deg)', opacity: 1 },
+                    { transform: `translate(calc(-50% + ${tx}px), calc(-50% + ${ty}px)) scale(1.5) rotate(${rot}deg)`, opacity: 1, offset: 0.8 },
+                    { transform: `translate(calc(-50% + ${tx}px), calc(-50% + ${ty + 100}px)) scale(1) rotate(${rot + 90}deg)`, opacity: 0 }
+                ], {
+                    duration: 1000 + Math.random() * 1500,
+                    easing: 'cubic-bezier(.37,0,.63,1)',
+                    fill: 'forwards'
+                });
+                
+                container.appendChild(confetti);
+                // Auto cleanup
+                setTimeout(() => confetti.remove(), 3000);
+            }
+        }
+
+        contactForm.addEventListener('submit', async function(e) {
+            e.preventDefault();
+
+            const formSection = document.getElementById('form-section');
+            const successCard = document.getElementById('success-card');
+            const errorAlert = document.getElementById('form-error');
+            const errorText = document.getElementById('form-error-text');
+            const submitBtn = document.getElementById('submit-btn');
+            const submitSpinner = document.getElementById('submit-spinner');
+            const submitText = document.getElementById('submit-text');
+            const confettiContainer = document.getElementById('confetti-container');
+            const successIconContainer = document.getElementById('success-icon-container');
+
+            const isHindi = window.location.pathname.includes('/hi/');
+            const originalBtnText = submitText.textContent;
+
+            // Hide previous errors
+            errorAlert.classList.add('hidden');
+
+            // Set loading state
+            submitBtn.disabled = true;
+            submitSpinner.classList.remove('hidden');
+            submitText.textContent = isHindi ? 'भेजा जा रहा है...' : 'Sending...';
+
+            const formData = new FormData(contactForm);
+
+            try {
+                const response = await fetch('https://api.web3forms.com/submit', {
+                    method: 'POST',
+                    body: formData
+                });
+
+                const data = await response.json();
+
+                if (response.ok) {
+                    // Success Entrance Animation
+                    formSection.classList.remove('opacity-100', 'scale-100');
+                    formSection.classList.add('opacity-0', 'scale-95');
+                    
+                    setTimeout(() => {
+                        formSection.classList.add('hidden');
+                        successCard.classList.remove('hidden');
+                        
+                        // Small delay to trigger CSS transition for success card
+                        setTimeout(() => {
+                            successCard.classList.remove('opacity-0', 'scale-95');
+                            successCard.classList.add('opacity-100', 'scale-100');
+                            
+                            // Bounce in the success icon
+                            successIconContainer.classList.remove('scale-0');
+                            successIconContainer.classList.add('scale-100');
+
+                            // Trigger confetti
+                            triggerConfetti(confettiContainer);
+                        }, 50);
+                    }, 500); 
+                } else {
+                    throw new Error(data.message || 'Form submission failed');
+                }
+            } catch (error) {
+                errorText.textContent = error.message || (isHindi ? 'नेटवर्क त्रुटि। कृपया अपना कनेक्शन जांचें और पुन: प्रयास करें।' : 'Network error occurred. Please check your connection and try again.');
+                errorAlert.classList.remove('hidden');
+            } finally {
+                submitBtn.disabled = false;
+                submitSpinner.classList.add('hidden');
+                submitText.textContent = originalBtnText;
+            }
+        });
+
+        // Reset Form Flow
+        const resetBtn = document.getElementById('reset-form-btn');
+        if (resetBtn) {
+            resetBtn.addEventListener('click', () => {
+                const formSection = document.getElementById('form-section');
+                const successCard = document.getElementById('success-card');
+                const successIconContainer = document.getElementById('success-icon-container');
+                
+                // Animate success card away
+                successCard.classList.remove('opacity-100', 'scale-100');
+                successCard.classList.add('opacity-0', 'scale-95');
+                successIconContainer.classList.remove('scale-100');
+                successIconContainer.classList.add('scale-0');
+                
+                setTimeout(() => {
+                    successCard.classList.add('hidden');
+                    contactForm.reset();
+                    
+                    formSection.classList.remove('hidden');
+                    
+                    setTimeout(() => {
+                        formSection.classList.remove('opacity-0', 'scale-95');
+                        formSection.classList.add('opacity-100', 'scale-100');
+                        const firstInput = contactForm.querySelector('input, textarea');
+                        if(firstInput) firstInput.focus();
+                    }, 50);
+                }, 500);
+            });
+        }
+    }
 });
