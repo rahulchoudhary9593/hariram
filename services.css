@@ -1,0 +1,102 @@
+/* services.css */
+
+/* Carousel Track */
+.carousel-viewport {
+    /* Prevents default browser drag behavior on children so our custom JS drag works smoothly */
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+.carousel-viewport.is-dragging {
+    cursor: grabbing !important;
+}
+
+.carousel-track {
+    /* Hardware acceleration for smooth animation */
+    will-change: transform;
+    /* Optional: slightly smooth transition if we were using CSS, 
+       but for requestAnimationFrame, we manage it in JS. */
+}
+
+/* Service Card Premium Styling */
+.service-card {
+    width: 300px; /* Mobile width */
+    height: 100%; /* For equal heights within the flex container */
+    display: flex;
+    flex-direction: column;
+    /* Smooth transitions for hover effects */
+    transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+@media (min-width: 640px) {
+    .service-card {
+        width: 340px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .service-card {
+        width: 380px;
+    }
+}
+
+.service-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+}
+
+.service-card:hover .service-image-container img {
+    transform: scale(1.05);
+}
+
+.service-image-container {
+    overflow: hidden;
+}
+
+.service-image-container img {
+    transition: transform 0.6s ease;
+    will-change: transform;
+}
+
+/* Modal Styling */
+.modal-backdrop {
+    /* Backdrop blur is handled by tailwind classes */
+}
+
+/* Hide scrollbar for modal gallery */
+#modal-gallery::-webkit-scrollbar {
+    display: none;
+}
+#modal-gallery {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+/* Checkmark list styling for modal */
+.check-list-item::before {
+    content: '✓';
+    color: #FBBF24; /* primary color */
+    font-weight: bold;
+    margin-right: 8px;
+    display: inline-block;
+}
+
+/* Dot list styling for applications */
+.dot-list-item::before {
+    content: '•';
+    color: #FBBF24; /* primary color */
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-right: 8px;
+    display: inline-block;
+    line-height: 1;
+}
+
+/* Gallery active dot */
+.gallery-dot {
+    transition: all 0.3s ease;
+}
+.gallery-dot.active {
+    width: 24px;
+    background-color: #FBBF24;
+}

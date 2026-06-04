@@ -4,9 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Services | Yash Construction Co.</title>
+    <title>हमारी सेवाएं | Yash Construction Co.</title>
     <meta name="description"
-        content="Explore our comprehensive road construction services including Highway Development, Asphalt Paving, Road Markings, and Street Lighting.">
+        content="हाईवे डेवलपमेंट, डामर रोड, रोड मार्किंग और स्ट्रीट लाइटिंग सहित हमारी व्यापक सड़क निर्माण सेवाओं की जानकारी लें।">
+    <!-- Language Alternates for SEO -->
+    <link rel="alternate" hreflang="en" href="../services.html" />
+    <link rel="alternate" hreflang="hi" href="services.html" />
+    <link rel="alternate" hreflang="x-default" href="../services.html" />
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -48,6 +52,7 @@
             font-family: 'Manrope', sans-serif;
         }
     </style>
+    <link rel="stylesheet" href="../services.css">
 </head>
 
 <body class="antialiased text-secondary relative pt-20">
@@ -67,166 +72,75 @@
         </div>
     </div>
 
-    <!-- Services Grid -->
-    <section class="py-20 lg:py-32">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-12">
+    <!-- Dynamic Services Container -->
+    <div id="services-container" class="py-12 lg:py-20 space-y-20 lg:space-y-32 overflow-hidden">
+        <!-- Sections will be injected here by services.js -->
+    </div>
 
-                <!-- Service 1 -->
-                <div
-                    class="bg-white rounded-3xl p-8 lg:p-10 border border-gray-200 hover:border-primary/50 hover:shadow-2xl transition-all duration-300 group hover:-translate-y-2">
-                    <div
-                        class="w-16 h-16 bg-primary/10 rounded-2xl flex items-center justify-center text-primary mb-6 group-hover:bg-primary group-hover:text-dark transition-colors">
-                        <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                d="M13 10V3L4 14h7v7l9-11h-7z"></path>
-                        </svg>
-                    </div>
-                    <h2 class="text-2xl font-bold font-heading text-dark mb-4">Highway Development</h2>
-                    <p class="text-secondary leading-relaxed mb-6">
-                        We undertake large-scale highway development projects, including national and state highways.
-                        Our end-to-end solutions cover earthwork, granular sub-base, wet mix macadam, and bituminous
-                        courses, adhering strictly to MoRTH specifications.
-                    </p>
-                    <ul class="space-y-2">
-                        <li class="flex items-center text-sm font-medium text-dark"><svg
-                                class="w-4 h-4 text-primary mr-2" fill="currentColor" viewBox="0 0 20 20">
-                                <path fill-rule="evenodd"
-                                    d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                                    clip-rule="evenodd"></path>
-                            </svg> Earthwork & Grading</li>
-                        <li class="flex items-center text-sm font-medium text-dark"><svg
-                                class="w-4 h-4 text-primary mr-2" fill="currentColor" viewBox="0 0 20 20">
-                                <path fill-rule="evenodd"
-                                    d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                                    clip-rule="evenodd"></path>
-                            </svg> Sub-base Construction</li>
-                        <li class="flex items-center text-sm font-medium text-dark"><svg
-                                class="w-4 h-4 text-primary mr-2" fill="currentColor" viewBox="0 0 20 20">
-                                <path fill-rule="evenodd"
-                                    d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                                    clip-rule="evenodd"></path>
-                            </svg> Culverts & Minor Bridges</li>
-                    </ul>
+    <!-- Service Details Modal -->
+    <div id="service-modal" class="fixed inset-0 z-[100] hidden flex items-center justify-center p-4 sm:p-6 opacity-0 transition-opacity duration-300">
+        <!-- Backdrop -->
+        <div class="absolute inset-0 bg-dark/80 backdrop-blur-sm modal-backdrop"></div>
+        
+        <!-- Modal Content -->
+        <div class="relative bg-white rounded-2xl md:rounded-3xl shadow-2xl w-full max-w-5xl max-h-[90vh] overflow-y-auto transform scale-95 transition-transform duration-300 modal-dialog flex flex-col md:flex-row">
+            <!-- Close Button -->
+            <button class="modal-close absolute top-4 right-4 md:top-6 md:right-6 z-10 w-10 h-10 bg-white/80 backdrop-blur-md rounded-full flex items-center justify-center text-dark hover:bg-primary hover:text-dark transition-colors shadow-sm">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
+            </button>
+
+            <!-- Gallery Section -->
+            <div class="w-full md:w-1/2 relative bg-gray-100 min-h-[300px] md:min-h-[500px]">
+                <div id="modal-gallery" class="w-full h-full flex overflow-x-hidden snap-x snap-mandatory scroll-smooth">
+                    <!-- Images injected here -->
+                </div>
+                <!-- Gallery Controls -->
+                <div class="absolute inset-0 flex items-center justify-between p-4 pointer-events-none">
+                    <button id="gallery-prev" class="pointer-events-auto w-10 h-10 bg-white/80 backdrop-blur-md rounded-full flex items-center justify-center text-dark hover:bg-primary transition-colors shadow-sm disabled:opacity-50 disabled:cursor-not-allowed hidden">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path></svg>
+                    </button>
+                    <button id="gallery-next" class="pointer-events-auto w-10 h-10 bg-white/80 backdrop-blur-md rounded-full flex items-center justify-center text-dark hover:bg-primary transition-colors shadow-sm disabled:opacity-50 disabled:cursor-not-allowed hidden">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+                    </button>
+                </div>
+                <!-- Gallery Indicators -->
+                <div id="gallery-indicators" class="absolute bottom-4 left-0 right-0 flex justify-center gap-2">
+                    <!-- Indicators injected here -->
+                </div>
+            </div>
+
+            <!-- Content Section -->
+            <div class="w-full md:w-1/2 p-6 md:p-10 lg:p-12 overflow-y-auto">
+                <h2 id="modal-title" class="text-3xl md:text-4xl font-bold font-heading text-dark mb-6">Service Title</h2>
+                
+                <div class="mb-8">
+                    <h3 class="text-lg font-bold font-heading text-dark mb-3">Overview</h3>
+                    <p id="modal-description" class="text-secondary leading-relaxed">Description goes here.</p>
                 </div>
 
-                <!-- Service 2 -->
-                <div
-                    class="bg-white rounded-3xl p-8 lg:p-10 border border-gray-200 hover:border-primary/50 hover:shadow-2xl transition-all duration-300 group hover:-translate-y-2">
-                    <div
-                        class="w-16 h-16 bg-primary/10 rounded-2xl flex items-center justify-center text-primary mb-6 group-hover:bg-primary group-hover:text-dark transition-colors">
-                        <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15">
-                            </path>
-                        </svg>
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-8 mb-8">
+                    <div>
+                        <h3 class="text-lg font-bold font-heading text-dark mb-4 flex items-center">
+                            <svg class="w-5 h-5 text-primary mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                            Key Features
+                        </h3>
+                        <ul id="modal-features" class="space-y-3">
+                            <!-- Features injected here -->
+                        </ul>
                     </div>
-                    <h2 class="text-2xl font-bold font-heading text-dark mb-4">Asphalt Paving</h2>
-                    <p class="text-secondary leading-relaxed mb-6">
-                        Providing premium quality hot mix asphalt paving for smooth, durable, and long-lasting road
-                        surfaces. We utilize advanced sensor pavers and pneumatic tire rollers to achieve the perfect
-                        finish and density.
-                    </p>
-                    <ul class="space-y-2">
-                        <li class="flex items-center text-sm font-medium text-dark"><svg
-                                class="w-4 h-4 text-primary mr-2" fill="currentColor" viewBox="0 0 20 20">
-                                <path fill-rule="evenodd"
-                                    d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                                    clip-rule="evenodd"></path>
-                            </svg> Bituminous Macadam (BM)</li>
-                        <li class="flex items-center text-sm font-medium text-dark"><svg
-                                class="w-4 h-4 text-primary mr-2" fill="currentColor" viewBox="0 0 20 20">
-                                <path fill-rule="evenodd"
-                                    d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                                    clip-rule="evenodd"></path>
-                            </svg> Dense Bituminous Macadam (DBM)</li>
-                        <li class="flex items-center text-sm font-medium text-dark"><svg
-                                class="w-4 h-4 text-primary mr-2" fill="currentColor" viewBox="0 0 20 20">
-                                <path fill-rule="evenodd"
-                                    d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                                    clip-rule="evenodd"></path>
-                            </svg> Bituminous Concrete (BC)</li>
-                    </ul>
-                </div>
-
-                <!-- Service 3 -->
-                <div
-                    class="bg-white rounded-3xl p-8 lg:p-10 border border-gray-200 hover:border-primary/50 hover:shadow-2xl transition-all duration-300 group hover:-translate-y-2">
-                    <div
-                        class="w-16 h-16 bg-primary/10 rounded-2xl flex items-center justify-center text-primary mb-6 group-hover:bg-primary group-hover:text-dark transition-colors">
-                        <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zm0 0h12a2 2 0 002-2v-4a2 2 0 00-2-2h-2.343M11 7.343l1.657-1.657a2 2 0 012.828 0l2.829 2.829a2 2 0 010 2.828l-8.486 8.485M7 17h.01">
-                            </path>
-                        </svg>
+                    <div>
+                        <h3 class="text-lg font-bold font-heading text-dark mb-4 flex items-center">
+                            <svg class="w-5 h-5 text-primary mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+                            Applications
+                        </h3>
+                        <ul id="modal-applications" class="space-y-3">
+                            <!-- Applications injected here -->
+                        </ul>
                     </div>
-                    <h2 class="text-2xl font-bold font-heading text-dark mb-4">Road Markings</h2>
-                    <p class="text-secondary leading-relaxed mb-6">
-                        High-visibility hot applied thermoplastic road markings for optimal safety. We use
-                        retro-reflective glass beads ensuring excellent night-time visibility and weather resistance.
-                    </p>
-                    <ul class="space-y-2">
-                        <li class="flex items-center text-sm font-medium text-dark"><svg
-                                class="w-4 h-4 text-primary mr-2" fill="currentColor" viewBox="0 0 20 20">
-                                <path fill-rule="evenodd"
-                                    d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                                    clip-rule="evenodd"></path>
-                            </svg> Center & Edge Lines</li>
-                        <li class="flex items-center text-sm font-medium text-dark"><svg
-                                class="w-4 h-4 text-primary mr-2" fill="currentColor" viewBox="0 0 20 20">
-                                <path fill-rule="evenodd"
-                                    d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                                    clip-rule="evenodd"></path>
-                            </svg> Zebra Crossings</li>
-                        <li class="flex items-center text-sm font-medium text-dark"><svg
-                                class="w-4 h-4 text-primary mr-2" fill="currentColor" viewBox="0 0 20 20">
-                                <path fill-rule="evenodd"
-                                    d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                                    clip-rule="evenodd"></path>
-                            </svg> Speed Breaker Markings</li>
-                    </ul>
-                </div>
-
-                <!-- Service 4 -->
-                <div
-                    class="bg-white rounded-3xl p-8 lg:p-10 border border-gray-200 hover:border-primary/50 hover:shadow-2xl transition-all duration-300 group hover:-translate-y-2">
-                    <div
-                        class="w-16 h-16 bg-primary/10 rounded-2xl flex items-center justify-center text-primary mb-6 group-hover:bg-primary group-hover:text-dark transition-colors">
-                        <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z">
-                            </path>
-                        </svg>
-                    </div>
-                    <h2 class="text-2xl font-bold font-heading text-dark mb-4">Street Lighting</h2>
-                    <p class="text-secondary leading-relaxed mb-6">
-                        Complete street lighting solutions including foundation, pole erection, and energy-efficient LED
-                        luminaire installation to ensure safe night-time driving conditions.
-                    </p>
-                    <ul class="space-y-2">
-                        <li class="flex items-center text-sm font-medium text-dark"><svg
-                                class="w-4 h-4 text-primary mr-2" fill="currentColor" viewBox="0 0 20 20">
-                                <path fill-rule="evenodd"
-                                    d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                                    clip-rule="evenodd"></path>
-                            </svg> High Mast Lighting</li>
-                        <li class="flex items-center text-sm font-medium text-dark"><svg
-                                class="w-4 h-4 text-primary mr-2" fill="currentColor" viewBox="0 0 20 20">
-                                <path fill-rule="evenodd"
-                                    d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                                    clip-rule="evenodd"></path>
-                            </svg> Smart LED Solutions</li>
-                        <li class="flex items-center text-sm font-medium text-dark"><svg
-                                class="w-4 h-4 text-primary mr-2" fill="currentColor" viewBox="0 0 20 20">
-                                <path fill-rule="evenodd"
-                                    d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                                    clip-rule="evenodd"></path>
-                            </svg> Solar Street Lights</li>
-                    </ul>
                 </div>
             </div>
         </div>
-    </section>
+    </div>
 
     <!-- Call to Action -->
     <section class="py-20 bg-dark relative overflow-hidden">
@@ -248,6 +162,7 @@
     <div id="footer-container"></div>
 
     <script src="../script.js"></script>
+    <script src="../services.js"></script>
 </body>
 
 </html>

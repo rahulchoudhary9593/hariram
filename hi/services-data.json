@@ -1,0 +1,267 @@
+[
+  {
+    "section": "Road Marking & Delineation",
+    "services": [
+      {
+        "title": "Road Marking (Thermoplastic Paint)",
+        "slug": "road-marking",
+        "thumbnail": "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?w=800&auto=format&fit=crop",
+        "gallery": [
+          "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?w=1200&auto=format&fit=crop",
+          "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=1200&auto=format&fit=crop",
+          "https://images.unsplash.com/photo-1482029255085-35a4a48b7084?w=1200&auto=format&fit=crop"
+        ],
+        "shortDescription": "High-durability thermoplastic marking solutions for highways and expressways.",
+        "fullDescription": "High durability thermoplastic road marking used for highways, expressways, and urban roads providing long-lasting visibility and safety. Our thermoplastic paints are applied hot and embed highly reflective glass beads for optimal night-time visibility.",
+        "features": [
+          "High Visibility",
+          "Weather Resistant",
+          "Long Service Life",
+          "Low Maintenance",
+          "Retro-reflective"
+        ],
+        "applications": [
+          "Highways",
+          "Expressways",
+          "Urban Roads",
+          "Industrial Areas"
+        ]
+      },
+      {
+        "title": "Cat Eyes / Road Stud Installation",
+        "slug": "cat-eyes",
+        "thumbnail": "https://images.unsplash.com/photo-1588693755498-842211c47dfc?w=800&auto=format&fit=crop",
+        "gallery": [
+          "https://images.unsplash.com/photo-1588693755498-842211c47dfc?w=1200&auto=format&fit=crop"
+        ],
+        "shortDescription": "Reflective road studs used for night visibility and lane guidance.",
+        "fullDescription": "Reflective road studs (Cat Eyes) used for night visibility and lane guidance in all weather conditions. We offer solar, aluminum, and ABS plastic variants installed with strong epoxy resins to withstand heavy traffic loads.",
+        "features": [
+          "360-degree Reflection",
+          "High Impact Resistance",
+          "All-weather Visibility",
+          "Heavy Load Bearing"
+        ],
+        "applications": [
+          "Highway Lane Dividers",
+          "Curves & Sharp Turns",
+          "Pedestrian Crossings",
+          "Toll Plazas"
+        ]
+      },
+      {
+        "title": "Reflective Delineators",
+        "slug": "reflective-delineators",
+        "thumbnail": "https://images.unsplash.com/photo-1506526685827-02482701d4df?w=800&auto=format&fit=crop",
+        "gallery": [
+          "https://images.unsplash.com/photo-1506526685827-02482701d4df?w=1200&auto=format&fit=crop"
+        ],
+        "shortDescription": "Flexible reflective bollards and delineators for edge marking.",
+        "fullDescription": "Delineators provide essential edge-of-road guidance to drivers, particularly in low-light conditions or bad weather. Our high-grade reflective delineators are UV stabilized and flexible enough to withstand impacts.",
+        "features": [
+          "UV Stabilized",
+          "High Flexibility",
+          "Micro-prismatic Reflectors",
+          "Crash Resilient"
+        ],
+        "applications": [
+          "Highway Shoulders",
+          "Sharp Curves",
+          "Work Zones",
+          "Bridge Approaches"
+        ]
+      },
+      {
+        "title": "Rumble Strips",
+        "slug": "rumble-strips",
+        "thumbnail": "https://images.unsplash.com/photo-1628189600122-87037fb6ffbe?w=800&auto=format&fit=crop",
+        "gallery": [
+          "https://images.unsplash.com/photo-1628189600122-87037fb6ffbe?w=1200&auto=format&fit=crop"
+        ],
+        "shortDescription": "Thermoplastic and structural rumble strips for speed calming.",
+        "fullDescription": "Rumble strips are an effective traffic calming measure designed to alert distracted or drowsy drivers through tactile vibration and audible rumbling. We install both thermoplastic and milled rumble strips as per IRC standards.",
+        "features": [
+          "Audible Warning",
+          "Tactile Feedback",
+          "Speed Reduction",
+          "Accident Prevention"
+        ],
+        "applications": [
+          "Toll Plaza Approaches",
+          "Intersection Approaches",
+          "Accident-prone Zones",
+          "School Zones"
+        ]
+      },
+      {
+        "title": "Kilometer & Hectometer Stones",
+        "slug": "km-stones",
+        "thumbnail": "https://images.unsplash.com/photo-1518558997970-4f51be02a28b?w=800&auto=format&fit=crop",
+        "gallery": [
+          "https://images.unsplash.com/photo-1518558997970-4f51be02a28b?w=1200&auto=format&fit=crop"
+        ],
+        "shortDescription": "Standardized reinforced concrete milestone and hectometer stones.",
+        "fullDescription": "We manufacture and install pre-cast reinforced concrete Kilometer and Hectometer stones conforming strictly to MoRTH and NHAI specifications, complete with durable retro-reflective lettering.",
+        "features": [
+          "Pre-cast RCC Construction",
+          "Standardized Dimensions",
+          "Retro-reflective Lettering",
+          "Weather-proof Paint"
+        ],
+        "applications": [
+          "National Highways",
+          "State Highways",
+          "Major District Roads",
+          "Rural Roads"
+        ]
+      }
+    ]
+  },
+  {
+    "section": "Traffic Signage & Reflective Systems",
+    "services": [
+      {
+        "title": "Overhead Gantry Signs",
+        "slug": "overhead-gantry",
+        "thumbnail": "https://images.unsplash.com/photo-1616851676644-8d962056973e?w=800&auto=format&fit=crop",
+        "gallery": [
+          "https://images.unsplash.com/photo-1616851676644-8d962056973e?w=1200&auto=format&fit=crop"
+        ],
+        "shortDescription": "Large overhead directional and informational gantry structures.",
+        "fullDescription": "Design, fabrication, and erection of robust overhead gantry signs for multi-lane highways. These structures support high-intensity retro-reflective sign boards for clear driver guidance at high speeds.",
+        "features": [
+          "Galvanized Steel Structure",
+          "Type IV/XI Reflective Sheeting",
+          "Wind Load Resistant",
+          "Custom Engineering"
+        ],
+        "applications": [
+          "Expressway Exits",
+          "Major Intersections",
+          "Toll Plazas",
+          "Lane Merges"
+        ]
+      },
+      {
+        "title": "Cautionary & Mandatory Signs",
+        "slug": "regulatory-signs",
+        "thumbnail": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&auto=format&fit=crop",
+        "gallery": [
+          "https://images.unsplash.com/photo-1518770660439-4636190af475?w=1200&auto=format&fit=crop"
+        ],
+        "shortDescription": "Standardized traffic regulatory and cautionary signage boards.",
+        "fullDescription": "Manufacturing and installation of standard cautionary, mandatory, and informatory signs on sturdy GI or MS posts. All signages utilize retro-reflective sheeting as per IRC:67 guidelines.",
+        "features": [
+          "IRC Compliant",
+          "High-Intensity Prismatic Sheeting",
+          "Anti-corrosive Posts",
+          "Vandal Resistant Mountings"
+        ],
+        "applications": [
+          "All Roads",
+          "Intersections",
+          "Pedestrian Zones",
+          "Hilly Terrains"
+        ]
+      }
+    ]
+  },
+  {
+    "section": "Road Safety Infrastructure",
+    "services": [
+      {
+        "title": "Metal Crash Barriers (W-Beam)",
+        "slug": "crash-barriers",
+        "thumbnail": "https://images.unsplash.com/photo-1522037996500-2f986427339d?w=800&auto=format&fit=crop",
+        "gallery": [
+          "https://images.unsplash.com/photo-1522037996500-2f986427339d?w=1200&auto=format&fit=crop"
+        ],
+        "shortDescription": "W-Beam and Thrie-Beam crash barriers for vehicle containment.",
+        "fullDescription": "Supply and installation of hot-dip galvanized W-Beam and Thrie-Beam crash barriers designed to absorb impact energy and safely redirect errant vehicles back onto the roadway.",
+        "features": [
+          "Hot-dip Galvanized Steel",
+          "High Energy Absorption",
+          "MoRTH Compliant",
+          "End Terminal Treatments"
+        ],
+        "applications": [
+          "Highway Embankments",
+          "Bridges & Flyovers",
+          "Valley Side of Hill Roads",
+          "Median Dividers"
+        ]
+      },
+      {
+        "title": "Wire Rope Safety Barriers",
+        "slug": "wire-rope-barriers",
+        "thumbnail": "https://images.unsplash.com/photo-1494515843206-f3117d3f51b7?w=800&auto=format&fit=crop",
+        "gallery": [
+          "https://images.unsplash.com/photo-1494515843206-f3117d3f51b7?w=1200&auto=format&fit=crop"
+        ],
+        "shortDescription": "Flexible wire rope safety barrier systems.",
+        "fullDescription": "Wire rope barriers are highly flexible safety systems that minimize vehicle damage and occupant injury during a collision. Ideal for narrow medians where rigid barriers are unsuitable.",
+        "features": [
+          "High Flexibility",
+          "Low Deceleration Forces",
+          "Cost-effective Repair",
+          "Minimal Visual Obstruction"
+        ],
+        "applications": [
+          "Highway Medians",
+          "Scenic Routes",
+          "Snow-prone Areas",
+          "Narrow Shoulders"
+        ]
+      }
+    ]
+  },
+  {
+    "section": "Street Lighting & Electrical Works",
+    "services": [
+      {
+        "title": "High Mast Lighting",
+        "slug": "high-mast",
+        "thumbnail": "https://images.unsplash.com/photo-1512404097486-159670081d4a?w=800&auto=format&fit=crop",
+        "gallery": [
+          "https://images.unsplash.com/photo-1512404097486-159670081d4a?w=1200&auto=format&fit=crop"
+        ],
+        "shortDescription": "12m to 30m high mast lighting towers for large area illumination.",
+        "fullDescription": "Complete installation of High Mast lighting systems including deep foundation work, mast erection, and motorized lantern carriage assembly. Ideal for uniform illumination of large open spaces.",
+        "features": [
+          "Motorized Lowering Gear",
+          "Uniform Illumination",
+          "Aerodynamic Design",
+          "Energy Efficient LEDs"
+        ],
+        "applications": [
+          "Toll Plazas",
+          "Major Intersections",
+          "Railway Yards",
+          "Industrial Hubs"
+        ]
+      },
+      {
+        "title": "Octagonal Street Light Poles",
+        "slug": "street-lights",
+        "thumbnail": "https://images.unsplash.com/photo-1601053127622-4ff217e1df28?w=800&auto=format&fit=crop",
+        "gallery": [
+          "https://images.unsplash.com/photo-1601053127622-4ff217e1df28?w=1200&auto=format&fit=crop"
+        ],
+        "shortDescription": "Galvanized octagonal poles with smart LED luminaires.",
+        "fullDescription": "Supply and installation of hot-dip galvanized octagonal street light poles along highways and urban roads. Equipped with energy-efficient smart LED fixtures ensuring optimal lux levels.",
+        "features": [
+          "Hot-dip Galvanized",
+          "Sleek Octagonal Design",
+          "Smart LED Integration",
+          "Weather Resistant"
+        ],
+        "applications": [
+          "Highway Medians",
+          "Urban Arterial Roads",
+          "Residential Streets",
+          "Pathways"
+        ]
+      }
+    ]
+  }
+]
