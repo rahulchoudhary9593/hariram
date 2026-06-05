@@ -1,265 +1,671 @@
 [
   {
-    "section": "Road Marking & Delineation",
+    "section": "सड़क अंकन और सीमांकन (Road Marking & Delineation)",
     "services": [
       {
-        "title": "Road Marking (Thermoplastic Paint)",
+        "title": "रोड मार्किंग (थर्मोप्लास्टिक पेंट)",
         "slug": "road-marking",
-        "thumbnail": "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?w=800&auto=format&fit=crop",
+        "thumbnail": "https://images.unsplash.com/photo-1515569067071-ec3b51335dd0?w=800&auto=format&fit=crop",
         "gallery": [
-          "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?w=1200&auto=format&fit=crop",
+          "https://images.unsplash.com/photo-1515569067071-ec3b51335dd0?w=1200&auto=format&fit=crop",
           "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=1200&auto=format&fit=crop",
           "https://images.unsplash.com/photo-1482029255085-35a4a48b7084?w=1200&auto=format&fit=crop"
         ],
-        "shortDescription": "High-durability thermoplastic marking solutions for highways and expressways.",
-        "fullDescription": "High durability thermoplastic road marking used for highways, expressways, and urban roads providing long-lasting visibility and safety. Our thermoplastic paints are applied hot and embed highly reflective glass beads for optimal night-time visibility.",
+        "shortDescription": "राजमार्गों और एक्सप्रेसवे के लिए अत्यधिक टिकाऊ थर्मोप्लास्टिक मार्किंग समाधान।",
+        "fullDescription": "राजमार्गों, एक्सप्रेसवे और शहरी सड़कों के लिए उच्च स्थायित्व वाला थर्मोप्लास्टिक रोड मार्किंग, जो लंबे समय तक चलने वाली दृश्यता और सुरक्षा प्रदान करता है। हमारे थर्मोप्लास्टिक पेंट्स को गर्म करके लगाया जाता है और सर्वोत्तम रात की दृश्यता के लिए अत्यधिक परावर्तक ग्लास बीड्स (कांच के मोतियों) को शामिल किया जाता है।",
         "features": [
-          "High Visibility",
-          "Weather Resistant",
-          "Long Service Life",
-          "Low Maintenance",
-          "Retro-reflective"
+          "उच्च दृश्यता (High Visibility)",
+          "मौसम प्रतिरोधी",
+          "लंबा सेवा जीवन",
+          "कम रखरखाव लागत",
+          "रेट्रो-रिफ्लेक्टिव तकनीक"
         ],
         "applications": [
-          "Highways",
-          "Expressways",
-          "Urban Roads",
-          "Industrial Areas"
+          "राष्ट्रीय राजमार्ग",
+          "एक्सप्रेसवे",
+          "शहरी मुख्य मार्ग",
+          "औद्योगिक क्षेत्र की सड़कें"
         ]
       },
       {
-        "title": "Cat Eyes / Road Stud Installation",
+        "title": "कैट आइज / रोड स्टड स्थापना",
         "slug": "cat-eyes",
-        "thumbnail": "https://images.unsplash.com/photo-1588693755498-842211c47dfc?w=800&auto=format&fit=crop",
+        "thumbnail": "https://images.unsplash.com/photo-1542314831-c53cd4b85ca1?w=800&auto=format&fit=crop",
         "gallery": [
-          "https://images.unsplash.com/photo-1588693755498-842211c47dfc?w=1200&auto=format&fit=crop"
+          "https://images.unsplash.com/photo-1542314831-c53cd4b85ca1?w=1200&auto=format&fit=crop"
         ],
-        "shortDescription": "Reflective road studs used for night visibility and lane guidance.",
-        "fullDescription": "Reflective road studs (Cat Eyes) used for night visibility and lane guidance in all weather conditions. We offer solar, aluminum, and ABS plastic variants installed with strong epoxy resins to withstand heavy traffic loads.",
+        "shortDescription": "रात में स्पष्ट दृश्यता और लेन मार्गदर्शन के लिए रिफ्लेक्टिव रोड स्टड्स।",
+        "fullDescription": "रात में स्पष्ट दृश्यता और हर मौसम में लेन मार्गदर्शन के लिए उपयोग किए जाने वाले रिफ्लेक्टिव रोड स्टड्स (कैट आइज)। हम भारी ट्रैफ़िक लोड को सहन करने के लिए मजबूत इपॉक्सी रेजिन के साथ स्थापित सोलर, एल्युमीनियम और एबीएस प्लास्टिक वेरिएंट प्रदान करते हैं।",
         "features": [
-          "360-degree Reflection",
-          "High Impact Resistance",
-          "All-weather Visibility",
-          "Heavy Load Bearing"
+          "360-डिग्री रिफ्लेक्शन (परावर्तन)",
+          "उच्च प्रभाव प्रतिरोध (Impact Resistance)",
+          "सभी मौसमों में स्पष्ट दृश्यता",
+          "भारी भार सहन क्षमता"
         ],
         "applications": [
-          "Highway Lane Dividers",
-          "Curves & Sharp Turns",
-          "Pedestrian Crossings",
-          "Toll Plazas"
+          "हाईवे लेन डिवाइडर",
+          "मोड़ और खतरनाक मोड़",
+          "पैदल यात्री क्रॉसिंग",
+          "टोल प्लाजा"
         ]
       },
       {
-        "title": "Reflective Delineators",
+        "title": "परावर्तक सीमांकक (Reflective Delineators)",
         "slug": "reflective-delineators",
-        "thumbnail": "https://images.unsplash.com/photo-1506526685827-02482701d4df?w=800&auto=format&fit=crop",
+        "thumbnail": "https://images.unsplash.com/photo-1584307833054-94191d90dbb6?w=800&auto=format&fit=crop",
         "gallery": [
-          "https://images.unsplash.com/photo-1506526685827-02482701d4df?w=1200&auto=format&fit=crop"
+          "https://images.unsplash.com/photo-1584307833054-94191d90dbb6?w=1200&auto=format&fit=crop"
         ],
-        "shortDescription": "Flexible reflective bollards and delineators for edge marking.",
-        "fullDescription": "Delineators provide essential edge-of-road guidance to drivers, particularly in low-light conditions or bad weather. Our high-grade reflective delineators are UV stabilized and flexible enough to withstand impacts.",
+        "shortDescription": "सड़क के किनारों की मार्किंग के लिए लचीले रिफ्लेक्टिव बोलार्ड और डेलिनिएटर्स।",
+        "fullDescription": "डेलिनिएटर्स ड्राइवरों को विशेष रूप से कम रोशनी या खराब मौसम में सड़क के किनारे का आवश्यक मार्गदर्शन प्रदान करते हैं। हमारे उच्च-श्रेणी के परावर्तक डेलिनिएटर्स यूवी स्थिर और इतने लचीले हैं कि वे टक्करों को सहन कर सकते हैं।",
         "features": [
-          "UV Stabilized",
-          "High Flexibility",
-          "Micro-prismatic Reflectors",
-          "Crash Resilient"
+          "यूवी (UV) प्रतिरोधी",
+          "उच्च लचीलापन (Flexibility)",
+          "माइक्रो-प्रिजमैटिक रिफ्लेक्टर्स",
+          "टक्कर रोधी संरचना"
         ],
         "applications": [
-          "Highway Shoulders",
-          "Sharp Curves",
-          "Work Zones",
-          "Bridge Approaches"
+          "हाईवे शोल्डर (किनारे)",
+          "तीव्र घुमावदार मार्ग",
+          "कार्य क्षेत्र (Work Zones)",
+          "पुल के समीपवर्ती मार्ग"
         ]
       },
       {
-        "title": "Rumble Strips",
+        "title": "रंबल स्ट्रिप्स (Rumble Strips)",
         "slug": "rumble-strips",
-        "thumbnail": "https://images.unsplash.com/photo-1628189600122-87037fb6ffbe?w=800&auto=format&fit=crop",
+        "thumbnail": "https://images.unsplash.com/photo-1558227691-41ea78d1f631?w=800&auto=format&fit=crop",
         "gallery": [
-          "https://images.unsplash.com/photo-1628189600122-87037fb6ffbe?w=1200&auto=format&fit=crop"
+          "https://images.unsplash.com/photo-1558227691-41ea78d1f631?w=1200&auto=format&fit=crop"
         ],
-        "shortDescription": "Thermoplastic and structural rumble strips for speed calming.",
-        "fullDescription": "Rumble strips are an effective traffic calming measure designed to alert distracted or drowsy drivers through tactile vibration and audible rumbling. We install both thermoplastic and milled rumble strips as per IRC standards.",
+        "shortDescription": "गति नियंत्रण और चेतावनी के लिए थर्मोप्लास्टिक एवं स्ट्रक्चरल रंबल स्ट्रिप्स।",
+        "fullDescription": "रंबल स्ट्रिप्स एक प्रभावी ट्रैफ़िक शांत करने का उपाय है जिसे कंपन और श्रव्य गड़गड़ाहट के माध्यम से विचलित या थके हुए ड्राइवरों को सचेत करने के लिए डिज़ाइन किया गया है। हम आईआरसी (IRC) मानकों के अनुसार थर्मोप्लास्टिक और मिल्ड दोनों रंबल स्ट्रिप्स स्थापित करते हैं।",
         "features": [
-          "Audible Warning",
-          "Tactile Feedback",
-          "Speed Reduction",
-          "Accident Prevention"
+          "श्रव्य चेतावनी (आवाज द्वारा)",
+          "स्पर्श कंपन प्रतिक्रिया (Tactile Feedback)",
+          "गति में कमी लाना",
+          "दुर्घटनाओं की रोकथाम"
         ],
         "applications": [
-          "Toll Plaza Approaches",
-          "Intersection Approaches",
-          "Accident-prone Zones",
-          "School Zones"
+          "टोल प्लाजा के पास",
+          "चौराहों के पास",
+          "दुर्घटना संभावित क्षेत्र",
+          "स्कूली क्षेत्र"
         ]
       },
       {
-        "title": "Kilometer & Hectometer Stones",
+        "title": "किलोमीटर और हेक्टोमीटर पत्थर",
         "slug": "km-stones",
-        "thumbnail": "https://images.unsplash.com/photo-1518558997970-4f51be02a28b?w=800&auto=format&fit=crop",
+        "thumbnail": "https://images.unsplash.com/photo-1596704169720-30232edbbde5?w=800&auto=format&fit=crop",
         "gallery": [
-          "https://images.unsplash.com/photo-1518558997970-4f51be02a28b?w=1200&auto=format&fit=crop"
+          "https://images.unsplash.com/photo-1596704169720-30232edbbde5?w=1200&auto=format&fit=crop"
         ],
-        "shortDescription": "Standardized reinforced concrete milestone and hectometer stones.",
-        "fullDescription": "We manufacture and install pre-cast reinforced concrete Kilometer and Hectometer stones conforming strictly to MoRTH and NHAI specifications, complete with durable retro-reflective lettering.",
+        "shortDescription": "मानकीकृत प्रबलित कंक्रीट माइलस्टोन और हेक्टोमीटर पत्थर।",
+        "fullDescription": "हम MoRTH और NHAI के मानकों के अनुसार पूर्व-निर्मित प्रबलित कंक्रीट (RCC) किलोमीटर और हेक्टोमीटर पत्थरों का निर्माण और स्थापना करते हैं, जो टिकाऊ रेट्रो-रिफ्लेक्टिव लिखावट से युक्त होते हैं।",
         "features": [
-          "Pre-cast RCC Construction",
-          "Standardized Dimensions",
-          "Retro-reflective Lettering",
-          "Weather-proof Paint"
+          "पूर्व-निर्मित आरसीसी (RCC) निर्माण",
+          "मानकीकृत आयाम और आकार",
+          "रेट्रो-रिफ्लेक्टिव लिखावट",
+          "मौसम-प्रूफ पेंटिंग"
         ],
         "applications": [
-          "National Highways",
-          "State Highways",
-          "Major District Roads",
-          "Rural Roads"
+          "राष्ट्रीय राजमार्ग",
+          "राज्य राजमार्ग",
+          "मुख्य जिला सड़कें",
+          "ग्रामीण सड़कें"
         ]
       }
     ]
   },
   {
-    "section": "Traffic Signage & Reflective Systems",
+    "section": "ट्रैफिक साइनेज और रिफ्लेक्टिव सिस्टम (Traffic Signage & Reflective Systems)",
     "services": [
       {
-        "title": "Overhead Gantry Signs",
-        "slug": "overhead-gantry",
-        "thumbnail": "https://images.unsplash.com/photo-1616851676644-8d962056973e?w=800&auto=format&fit=crop",
+        "title": "ट्रैफिक साइन बोर्ड स्थापना",
+        "slug": "traffic-sign-board",
+        "thumbnail": "https://images.unsplash.com/photo-1516584285802-127e5ec024b3?w=800&auto=format&fit=crop",
         "gallery": [
-          "https://images.unsplash.com/photo-1616851676644-8d962056973e?w=1200&auto=format&fit=crop"
+          "https://images.unsplash.com/photo-1516584285802-127e5ec024b3?w=1200&auto=format&fit=crop"
         ],
-        "shortDescription": "Large overhead directional and informational gantry structures.",
-        "fullDescription": "Design, fabrication, and erection of robust overhead gantry signs for multi-lane highways. These structures support high-intensity retro-reflective sign boards for clear driver guidance at high speeds.",
+        "shortDescription": "अनिवार्य, चेतावनी और सूचनात्मक यातायात साइन बोर्डों की स्थापना।",
+        "fullDescription": "मजबूत, जंग-रोधी लोहे के खंभों पर मानकीकृत यातायात साइन बोर्डों की पेशेवर स्थापना। स्पष्ट सड़क संचार और विनियामक अनुपालन सुनिश्चित करने के लिए सभी बोर्डों को आईआरसी मानकों के अनुसार डिज़ाइन किया गया है।",
         "features": [
-          "Galvanized Steel Structure",
-          "Type IV/XI Reflective Sheeting",
-          "Wind Load Resistant",
-          "Custom Engineering"
+          "IRC:67 मानक का पूर्ण अनुपालन",
+          "हैवी-ड्यूटी जीआई (GI) पोस्ट",
+          "एंटी-थेफ्ट फास्टनर्स",
+          "मौसम-रोधी कोटिंग"
         ],
         "applications": [
-          "Expressway Exits",
-          "Major Intersections",
-          "Toll Plazas",
-          "Lane Merges"
+          "राजमार्ग और एक्सप्रेसवे",
+          "शहरी और ग्रामीण सड़कें",
+          "खतरनाक मोड़",
+          "चौराहे नियंत्रण"
         ]
       },
       {
-        "title": "Cautionary & Mandatory Signs",
-        "slug": "regulatory-signs",
-        "thumbnail": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&auto=format&fit=crop",
+        "title": "रिफ्लेक्टिव शीटिंग और साइनेज फिक्सिंग",
+        "slug": "reflective-sheeting",
+        "thumbnail": "https://images.unsplash.com/photo-1498634882068-124e4d58ccae?w=800&auto=format&fit=crop",
         "gallery": [
-          "https://images.unsplash.com/photo-1518770660439-4636190af475?w=1200&auto=format&fit=crop"
+          "https://images.unsplash.com/photo-1498634882068-124e4d58ccae?w=1200&auto=format&fit=crop"
         ],
-        "shortDescription": "Standardized traffic regulatory and cautionary signage boards.",
-        "fullDescription": "Manufacturing and installation of standard cautionary, mandatory, and informatory signs on sturdy GI or MS posts. All signages utilize retro-reflective sheeting as per IRC:67 guidelines.",
+        "shortDescription": "रात के समय बेहतर दृश्यता के लिए हाई-इंटेंसिटी रिफ्लेक्टिव शीटिंग का अनुप्रयोग।",
+        "fullDescription": "दिन और रात की उत्कृष्ट दृश्यता के लिए साइनबोर्ड पर हाई-इंटेंसिटी माइक्रो-प्रिजमैटिक रिफ्लेक्टिव शीटिंग लगाई जाती है। हमारी शीटिंग वाहनों की हेडलाइट्स से आने वाले प्रकाश को बेहतरीन ढंग से परावर्तित करती है।",
         "features": [
-          "IRC Compliant",
-          "High-Intensity Prismatic Sheeting",
-          "Anti-corrosive Posts",
-          "Vandal Resistant Mountings"
+          "टाइप IV और टाइप XI शीटिंग",
+          "वाइड-एंगल उत्कृष्ट दृश्यता",
+          "दीर्घकालिक परावर्तन (Retro-reflectivity)",
+          "यूवी और फीका-रोधी (Fade Resistant)"
         ],
         "applications": [
-          "All Roads",
-          "Intersections",
-          "Pedestrian Zones",
-          "Hilly Terrains"
+          "ओवरहेड गैन्ट्री साइन बोर्ड",
+          "चेतावनी सूचक संकेत",
+          "दिशा और दूरी सूचक संकेत",
+          "हाईवे गाइड साइन बोर्ड"
+        ]
+      },
+      {
+        "title": "शेवरॉन बोर्ड (Chevron Boards)",
+        "slug": "chevron-boards",
+        "thumbnail": "https://images.unsplash.com/photo-1562920618-97c7b8061d4a?w=800&auto=format&fit=crop",
+        "gallery": [
+          "https://images.unsplash.com/photo-1562920618-97c7b8061d4a?w=1200&auto=format&fit=crop"
+        ],
+        "shortDescription": "तीखे मोड़ों और गोलचक्करों पर ड्राइवरों को लेन दिशा दिखाने वाले शेवरॉन संरेखण बोर्ड।",
+        "fullDescription": "शेवरॉन संरेखण संकेत तीखे मोड़ों और सड़कों के क्षैतिज घुमावों के माध्यम से ड्राइवरों का मार्गदर्शन करते हैं। हमारे शेवरॉन बोर्डों में अत्यधिक परावर्तक शीटिंग और मजबूत बैक-सपोर्ट होते हैं जो तेज हवाओं को झेल सकते हैं।",
+        "features": [
+          "प्रभाव प्रतिरोधी बोर्ड (Impact Resistant)",
+          "अत्यधिक रिफ्लेक्टिव शेवरॉन तीर",
+          "मजबूत माउंटिंग असेंबली",
+          "मानकीकृत रंग (पीला/काला)"
+        ],
+        "applications": [
+          "पहाड़ी हेयरपिन बेंड और तीखे मोड़",
+          "गोलचक्कर (Roundabout) के किनारे",
+          "हाईवे डायवर्जन जोन",
+          "अस्थायी निर्माण डायवर्जन"
+        ]
+      },
+      {
+        "title": "ऑब्जेक्ट मार्कर (Object Markers)",
+        "slug": "object-markers",
+        "thumbnail": "https://images.unsplash.com/photo-1543269865-cbf427effbad?w=800&auto=format&fit=crop",
+        "gallery": [
+          "https://images.unsplash.com/photo-1543269865-cbf427effbad?w=1200&auto=format&fit=crop"
+        ],
+        "shortDescription": "सड़क के भौतिक अवरोधों पर लगाए जाने वाले परावर्तक खतरा संकेतक।",
+        "fullDescription": "ऑब्जेक्ट मार्कर ड्राइवरों को सड़क के भीतर या ठीक बगल में मौजूद भौतिक अवरोधों (जैसे पुल के खंभे, गार्डरेल के सिरे, या मध्य डिवाइडर के मुहाने) के बारे में सचेत करने के लिए लगाए जाते हैं।",
+        "features": [
+          "OM1, OM2, और OM3 वेरिएंट्स",
+          "मजबूत परावर्तन क्षमता",
+          "कॉम्पैक्ट और टिकाऊ डिजाइन",
+          "वेदरप्रूफ एल्युमीनियम बैकिंग"
+        ],
+        "applications": [
+          "पुल के खंभे और एबटमेंट्स",
+          "डिवाइडर के मुहाने और अंडरपास",
+          "गार्डरेल के अंतिम सिरे",
+          "ट्रैफ़िक आइलैंड"
+        ]
+      },
+      {
+        "title": "दिशा और चेतावनी संकेत प्रणाली",
+        "slug": "direction-warning-signs",
+        "thumbnail": "https://images.unsplash.com/photo-1510935515250-96f7c8ec17d6?w=800&auto=format&fit=crop",
+        "gallery": [
+          "https://images.unsplash.com/photo-1510935515250-96f7c8ec17d6?w=1200&auto=format&fit=crop"
+        ],
+        "shortDescription": "दिशाओं, दूरियों और आने वाले खतरों को दर्शाने वाली व्यापक साइनेज प्रणाली।",
+        "fullDescription": "प्रमुख राजमार्गों और शहरी क्षेत्रों के लिए विशेष रूप से डिज़ाइन की गई दिशा और चेतावनी संकेत प्रणाली। ये बड़े आकार के बोर्ड मोटर चालकों को आवश्यक मार्गदर्शन और महत्वपूर्ण जानकारी प्रदान करते हैं।",
+        "features": [
+          "अनुकूलित संरचनात्मक डिजाइन",
+          "स्पष्ट टाइपोग्राफी और प्रतीक",
+          "जंग-मुक्त ढांचा (Framework)",
+          "लंबी दूरी से पढ़ने योग्य अक्षरांकन"
+        ],
+        "applications": [
+          "राजमार्ग इंटरचेंज (Junctions)",
+          "शहर के प्रवेश मार्ग",
+          "महत्वपूर्ण तिराहे/चौराहे",
+          "टोल गेट मार्ग निर्देश"
         ]
       }
     ]
   },
   {
-    "section": "Road Safety Infrastructure",
+    "section": "सड़क सुरक्षा बुनियादी ढांचा (Road Safety Infrastructure)",
     "services": [
       {
-        "title": "Metal Crash Barriers (W-Beam)",
-        "slug": "crash-barriers",
-        "thumbnail": "https://images.unsplash.com/photo-1522037996500-2f986427339d?w=800&auto=format&fit=crop",
+        "title": "डब्लू-बीम क्रैश बैरियर स्थापना",
+        "slug": "w-beam-crash-barrier",
+        "thumbnail": "https://images.unsplash.com/photo-1599839619722-39751411ea63?w=800&auto=format&fit=crop",
         "gallery": [
-          "https://images.unsplash.com/photo-1522037996500-2f986427339d?w=1200&auto=format&fit=crop"
+          "https://images.unsplash.com/photo-1599839619722-39751411ea63?w=1200&auto=format&fit=crop"
         ],
-        "shortDescription": "W-Beam and Thrie-Beam crash barriers for vehicle containment.",
-        "fullDescription": "Supply and installation of hot-dip galvanized W-Beam and Thrie-Beam crash barriers designed to absorb impact energy and safely redirect errant vehicles back onto the roadway.",
+        "shortDescription": "वाहनों को सुरक्षित रखने के लिए डब्लू-बीम क्रैश बैरियर की स्थापना।",
+        "fullDescription": "हॉट-डिप गैल्वेनाइज्ड डब्लू-बीम (W-Beam) क्रैश बैरियर की आपूर्ति और पेशेवर स्थापना। ये सुरक्षा प्रणालियां टक्कर के दौरान प्रभाव ऊर्जा को अवशोषित करती हैं, जिससे वाहन खाई में गिरने या दूसरी लेन में जाने से बचता है।",
         "features": [
-          "Hot-dip Galvanized Steel",
-          "High Energy Absorption",
-          "MoRTH Compliant",
-          "End Terminal Treatments"
+          "हॉट-डिप गैल्वेनाइज्ड स्टील (MoRTH स्वीकृत)",
+          "उच्च लचीली ताकत (High Yield Strength)",
+          "मजबूत पोस्ट एंकरिंग सिस्टम",
+          "सुरक्षित एंड टर्मिनल ट्रीटमेंट"
         ],
         "applications": [
-          "Highway Embankments",
-          "Bridges & Flyovers",
-          "Valley Side of Hill Roads",
-          "Median Dividers"
+          "ऊंचे राजमार्ग के किनारे",
+          "पहाड़ी और घुमावदार रास्ते",
+          "पुल के पहुंच मार्ग",
+          "हाई-स्पीड एक्सप्रेसवे"
         ]
       },
       {
-        "title": "Wire Rope Safety Barriers",
-        "slug": "wire-rope-barriers",
+        "title": "मीडियन बैरियर स्थापना (Median Barrier)",
+        "slug": "median-barrier",
+        "thumbnail": "https://images.unsplash.com/photo-1621538605335-7c06c88463c2?w=800&auto=format&fit=crop",
+        "gallery": [
+          "https://images.unsplash.com/photo-1621538605335-7c06c88463c2?w=1200&auto=format&fit=crop"
+        ],
+        "shortDescription": "सड़क के मध्य (डिवाइडर) में कंक्रीट या धातु के सुरक्षात्मक अवरोधकों की स्थापना।",
+        "fullDescription": "विपरीत दिशा से आने वाले वाहनों के बीच आमने-सामने की टक्कर को रोकने के लिए डिज़ाइन किए गए मीडियन बैरियर। हम पूर्व-निर्मित कंक्रीट न्यू जर्सी बैरियर और गैल्वेनाइज्ड स्टील मीडियन क्रैश बैरियर स्थापित करते हैं।",
+        "features": [
+          "वाहन पुनर्निर्देशन क्षमता (Redirect)",
+          "आमने-सामने की टक्कर की पूर्ण रोकथाम",
+          "पूर्व-निर्मित कंक्रीट का लंबा जीवन",
+          "एकीकृत जल निकासी छेद (Drainage slots)"
+        ],
+        "applications": [
+          "दो-तरफा एक्सप्रेसवे",
+          "शहरी फ्लाईओवर मीडियन",
+          "टोल रोड सेपरेशन",
+          "पुल और वायाडक्ट्स"
+        ]
+      },
+      {
+        "title": "सड़क किनारे सुरक्षा बैरियर",
+        "slug": "roadside-safety-barriers",
         "thumbnail": "https://images.unsplash.com/photo-1494515843206-f3117d3f51b7?w=800&auto=format&fit=crop",
         "gallery": [
           "https://images.unsplash.com/photo-1494515843206-f3117d3f51b7?w=1200&auto=format&fit=crop"
         ],
-        "shortDescription": "Flexible wire rope safety barrier systems.",
-        "fullDescription": "Wire rope barriers are highly flexible safety systems that minimize vehicle damage and occupant injury during a collision. Ideal for narrow medians where rigid barriers are unsuitable.",
+        "shortDescription": "सड़क के बाहर गिरने या टकराने से बचाने के लिए लचीली और अर्ध-कठोर बैरियर प्रणालियां।",
+        "fullDescription": "सड़क किनारे सुरक्षा बैरियर प्रतिष्ठान जिनमें वायर रोप (तार की रस्सी) सुरक्षा बैरियर और स्टील के लचीले फेंसिंग शामिल हैं। यह वाहन को पेड़ों, खंभों या गहरी ढलानों जैसी खतरनाक वस्तुओं से टकराने से बचाता है।",
         "features": [
-          "High Flexibility",
-          "Low Deceleration Forces",
-          "Cost-effective Repair",
-          "Minimal Visual Obstruction"
+          "लचीला विक्षेपण प्रदर्शन (Deflection)",
+          "सलीक और कम ऊंचाई वाला डिजाइन",
+          "त्वरित मरम्मत और आसान रखरखाव",
+          "किफायती सुरक्षा व्यवस्था"
         ],
         "applications": [
-          "Highway Medians",
-          "Scenic Routes",
-          "Snow-prone Areas",
-          "Narrow Shoulders"
+          "पहाड़ी घाटी मार्ग",
+          "वन क्षेत्र मार्ग सीमाएं",
+          "नहर के किनारे बने राजमार्ग",
+          "बिजली के खंभों के पास सुरक्षा"
+        ]
+      },
+      {
+        "title": "फेंसिंग और सुरक्षा प्रणाली (Fencing & Protection)",
+        "slug": "fencing-protection",
+        "thumbnail": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800&auto=format&fit=crop",
+        "gallery": [
+          "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=1200&auto=format&fit=crop"
+        ],
+        "shortDescription": "हाईवे पर पैदल चलने वालों और आवारा पशुओं के प्रवेश को रोकने के लिए फेंसिंग।",
+        "fullDescription": "यातायात प्रवाह को सुरक्षित रखने और अनाधिकृत पहुंच को नियंत्रित करने के लिए बाउंड्री फेंसिंग प्रणालियों की स्थापना। यह तेज रफ्तार सड़कों पर जंगली जानवरों और राहगीरों के अचानक आने से होने वाले हादसों को रोकता है।",
+        "features": [
+          "चेन लिंक और वेल्डेड मेश विकल्प",
+          "जंग-रोधी जीआई (GI) सामग्री",
+          "उच्च तनाव स्थायित्व (Tension)",
+          "ठोस कंक्रीट कड़ा फाउंडेशन"
+        ],
+        "applications": [
+          "एक्सप्रेसवे सीमा दीवारें (Access Control)",
+          "सड़क के मध्य डिवाइडर पर चकाचौंध स्क्रीन",
+          "रेलवे लाइन सीमाएं",
+          "हवाई अड्डे के बाहरी बाड़े"
+        ]
+      },
+      {
+        "title": "बोलार्ड और सुरक्षा उपकरण (Bollards)",
+        "slug": "bollards-safety-devices",
+        "thumbnail": "https://images.unsplash.com/photo-1601053127622-4ff217e1df28?w=800&auto=format&fit=crop",
+        "gallery": [
+          "https://images.unsplash.com/photo-1601053127622-4ff217e1df28?w=1200&auto=format&fit=crop"
+        ],
+        "shortDescription": "पैदल रास्तों और महत्वपूर्ण भवनों की सुरक्षा के लिए मजबूत सुरक्षा बोलार्ड और स्पीड बम्प्स।",
+        "fullDescription": "सुरक्षात्मक बोलार्ड, ऊंचाई सीमा अवरोधक और स्पीड ब्रेकर की आपूर्ति और स्थापना। इसका उपयोग वाहनों की आवाजाही को निर्देशित करने, संवेदनशील बुनियादी ढांचे की रक्षा करने और पैदल चलने वालों के रास्तों को सुरक्षित करने के लिए किया जाता है।",
+        "features": [
+          "प्रभाव-प्रतिरोधी स्टील/कंक्रीट सामग्री",
+          "अत्यधिक परावर्तक (Reflective) पट्टियां",
+          "हटाने योग्य और स्थायी फिक्स्ड विकल्प",
+          "आधुनिक डिजाइन्स"
+        ],
+        "applications": [
+          "पैदल मार्ग और फुटपाथ",
+          "व्यावसायिक प्रवेश द्वार",
+          "टोल बूथ सुरक्षा",
+          "सार्वजनिक पार्क और प्लाजा"
         ]
       }
     ]
   },
   {
-    "section": "Street Lighting & Electrical Works",
+    "section": "स्ट्रीट लाइटिंग और इलेक्ट्रिकल कार्य (Street Lighting & Electrical Works)",
     "services": [
       {
-        "title": "High Mast Lighting",
-        "slug": "high-mast",
+        "title": "स्ट्रीट लाइट पोल स्थापना",
+        "slug": "street-light-poles",
+        "thumbnail": "https://images.unsplash.com/photo-1517351659714-3d06eb18e6c7?w=800&auto=format&fit=crop",
+        "gallery": [
+          "https://images.unsplash.com/photo-1517351659714-3d06eb18e6c7?w=1200&auto=format&fit=crop"
+        ],
+        "shortDescription": "अष्टकोणीय (Octagonal) और ट्यूबलर स्टील स्ट्रीट लाइट खंभों की स्थापना।",
+        "fullDescription": "उच्च गुणवत्ता वाले हॉट-डिप गैल्वेनाइज्ड अष्टकोणीय स्ट्रीट लाइट पोल की स्थापना। ये तेज हवाओं और मौसम के प्रतिकूल प्रभावों को झेलने के लिए डिज़ाइन किए गए हैं, जो सुरक्षित रोड लाइटिंग प्रदान करते हैं।",
+        "features": [
+          "हॉट-डिप गैल्वेनाइज्ड सुरक्षा",
+          "अष्टकोणीय और स्वेज्ड आधुनिक डिजाइन्स",
+          "जंग-रोधी मजबूत बेस प्लेट",
+          "सुंदर आधुनिक लुक"
+        ],
+        "applications": [
+          "हाईवे के किनारे और मीडियन",
+          "शहरी मुख्य मार्ग",
+          "आवासीय कॉलोनियां",
+          "औद्योगिक कारखाने"
+        ]
+      },
+      {
+        "title": "स्ट्रीट लाइट केबलिंग और इलेक्ट्रिकल कार्य",
+        "slug": "street-light-cabling",
+        "thumbnail": "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?w=800&auto=format&fit=crop",
+        "gallery": [
+          "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?w=1200&auto=format&fit=crop"
+        ],
+        "shortDescription": "अंडरग्राउंड आर्मर्ड केबलिंग, अर्थिंग और फीडर पिलर कंट्रोल पैनल की स्थापना।",
+        "fullDescription": "सड़क प्रकाश व्यवस्था के लिए विद्युत बुनियादी ढांचे का संपूर्ण कार्य, जिसमें ट्रेंचिंग (गड्ढा खोदना), भारी बख्तरबंद (Armored) केबल बिछाना, स्वचालित टाइमर फीडर पिलर स्थापित करना और उचित अर्थिंग शामिल है।",
+        "features": [
+          "हैवी-ड्यूटी आर्मर्ड केबल्स",
+          "ऑटो-टाइमर युक्त कंट्रोल फीडर पिलर",
+          "उच्च चालकता अर्थिंग सिस्टम",
+          "अधिभार (Overload) सुरक्षा प्रणालियां"
+        ],
+        "applications": [
+          "राजमार्ग प्रकाश परियोजनाएं",
+          "शहरी स्ट्रीट लाइट नेटवर्क",
+          "पुलों पर विद्युत प्रकाश व्यवस्था",
+          "सुरंग विद्युत बुनियादी ढांचा"
+        ]
+      },
+      {
+        "title": "हाई मास्ट लाइटिंग सिस्टम (High Mast)",
+        "slug": "high-mast-lighting",
         "thumbnail": "https://images.unsplash.com/photo-1512404097486-159670081d4a?w=800&auto=format&fit=crop",
         "gallery": [
           "https://images.unsplash.com/photo-1512404097486-159670081d4a?w=1200&auto=format&fit=crop"
         ],
-        "shortDescription": "12m to 30m high mast lighting towers for large area illumination.",
-        "fullDescription": "Complete installation of High Mast lighting systems including deep foundation work, mast erection, and motorized lantern carriage assembly. Ideal for uniform illumination of large open spaces.",
+        "shortDescription": "बड़े क्षेत्रों को रोशन करने के लिए 12 मीटर से 30 मीटर ऊंचे हाई मास्ट लाइट टावरों की स्थापना।",
+        "fullDescription": "मोटर चालित लोअरिंग गियर (ऊपर-नीचे करने की मशीन) के साथ हाई मास्ट लाइटिंग सिस्टम की आपूर्ति, गहरा फाउंडेशन बनाना और स्थापना। यह विशाल खुले स्थानों को समान रूप से प्रकाशित करता है।",
         "features": [
-          "Motorized Lowering Gear",
-          "Uniform Illumination",
-          "Aerodynamic Design",
-          "Energy Efficient LEDs"
+          "मोटर चालित लालटेन कैरिज (Easy maintenance)",
+          "गहरी पाइल कंक्रीट फाउंडेशन",
+          "वायुगतिकीय प्रतिरोधी पोल (Aerodynamic)",
+          "ऊर्जा-कुशल एलईडी फ्लडलाइट्स"
         ],
         "applications": [
-          "Toll Plazas",
-          "Major Intersections",
-          "Railway Yards",
-          "Industrial Hubs"
+          "प्रमुख चौराहे",
+          "हाईवे टोल प्लाजा",
+          "रेलवे और यार्ड परिसर",
+          "खेल मैदान और स्टेडियम"
         ]
       },
       {
-        "title": "Octagonal Street Light Poles",
-        "slug": "street-lights",
-        "thumbnail": "https://images.unsplash.com/photo-1601053127622-4ff217e1df28?w=800&auto=format&fit=crop",
+        "title": "रोडवे लाइटिंग इंफ्रास्ट्रक्चर",
+        "slug": "roadway-lighting",
+        "thumbnail": "https://images.unsplash.com/photo-1494522855154-9297ac14b55f?w=800&auto=format&fit=crop",
         "gallery": [
-          "https://images.unsplash.com/photo-1601053127622-4ff217e1df28?w=1200&auto=format&fit=crop"
+          "https://images.unsplash.com/photo-1494522855154-9297ac14b55f?w=1200&auto=format&fit=crop"
         ],
-        "shortDescription": "Galvanized octagonal poles with smart LED luminaires.",
-        "fullDescription": "Supply and installation of hot-dip galvanized octagonal street light poles along highways and urban roads. Equipped with energy-efficient smart LED fixtures ensuring optimal lux levels.",
+        "shortDescription": "सड़कों के लिए ऊर्जा-कुशल और स्मार्ट एलईडी प्रकाश व्यवस्था का कार्यान्वयन।",
+        "fullDescription": "सड़क पर सर्वोत्तम प्रकाश का स्तर (Lux level) सुनिश्चित करने के लिए ऊर्जा की बचत करने वाले स्मार्ट एलईडी लाइट, डिमिंग सेंसर्स और केंद्रीय नियंत्रण प्रणालियों से युक्त व्यापक सड़क प्रकाश परियोजनाएं।",
         "features": [
-          "Hot-dip Galvanized",
-          "Sleek Octagonal Design",
-          "Smart LED Integration",
-          "Weather Resistant"
+          "स्मार्ट डिमिंग कंट्रोल विकल्प",
+          "उच्च लुमेन आउटपुट एलईडी",
+          "जल और धूल प्रतिरोधी सुरक्षा (IP66)",
+          "सर्किट सुरक्षा उपकरण (Surge Protection)"
         ],
         "applications": [
-          "Highway Medians",
-          "Urban Arterial Roads",
-          "Residential Streets",
-          "Pathways"
+          "राष्ट्रीय राजमार्ग",
+          "फ्लाईओवर और अंडरपास",
+          "हवाई पट्टी क्षेत्र (Runway)",
+          "स्मार्ट सिटी रोड नेटवर्क"
+        ]
+      }
+    ]
+  },
+  {
+    "section": "रोड फर्नीचर और शहरी बुनियादी ढांचा (Road Furniture & Urban Infrastructure)",
+    "services": [
+      {
+        "title": "कर्ब स्टोन स्थापना (Kerb Stone)",
+        "slug": "kerb-stone-installation",
+        "thumbnail": "https://images.unsplash.com/photo-1590496839352-7b5879a95022?w=800&auto=format&fit=crop",
+        "gallery": [
+          "https://images.unsplash.com/photo-1590496839352-7b5879a95022?w=1200&auto=format&fit=crop"
+        ],
+        "shortDescription": "सड़क के किनारों और पैदल रास्तों पर प्री-कास्ट कंक्रीट कर्ब स्टोन लगाना।",
+        "fullDescription": "सड़क के किनारों और डिवाइडर के साथ उच्च गुणवत्ता वाले कंक्रीट कर्ब स्टोन की स्थापना। यह सड़क की सतह को मजबूती प्रदान करता है, जल निकासी में मदद करता है और पैदल यात्रियों के क्षेत्र को अलग करता है।",
+        "features": [
+          "पूर्व-निर्मित कंक्रीट M-25 ग्रेड",
+          "सटीक संरेखण और ढलान",
+          "रेट्रो-रिफ्लेक्टिव सुरक्षा पेंटिंग",
+          "एकीकृत जल निकासी कटआउट"
+        ],
+        "applications": [
+          "हाईवे मीडियन किनारे",
+          "फुटपाथ और पैदल पथ",
+          "पार्किंग स्थल की सीमाएं",
+          "शहरी मुख्य सड़कें"
+        ]
+      },
+      {
+        "title": "रोड फर्नीचर स्थापना",
+        "slug": "road-furniture",
+        "thumbnail": "https://images.unsplash.com/photo-1628189679199-31e8471c9902?w=800&auto=format&fit=crop",
+        "gallery": [
+          "https://images.unsplash.com/photo-1628189679199-31e8471c9902?w=1200&auto=format&fit=crop"
+        ],
+        "shortDescription": "यातायात सुरक्षा अवरोधक, सूचना कियोस्क और बैठने की बेंचों की स्थापना।",
+        "fullDescription": "राहगीरों और चालकों की सुविधा व सुरक्षा को बढ़ाने के लिए सड़क किनारे की सहायक वस्तुओं (रोड फर्नीचर) की स्थापना। इसमें सड़क किनारे बेंच, डस्टबिन, बाउंड्री पिलर और सोलर बीकन लाइट शामिल हैं।",
+        "features": [
+          "मौसम प्रतिरोधी टिकाऊ सामग्री",
+          "मजबूत कंक्रीट एंकरिंग स्थापना",
+          "सुंदर और एर्गोनोमिक डिजाइन",
+          "एंटी-वैंडल (तोड़फोड़ रोधी) संरचना"
+        ],
+        "applications": [
+          "राजमार्ग विश्राम स्थल (Rest Areas)",
+          "सार्वजनिक परिवहन हब",
+          "स्मार्ट सिटी पैदल मार्ग",
+          "पर्यटन स्थल और पार्क"
+        ]
+      },
+      {
+        "title": "बस बे का विकास (Bus Bay Development)",
+        "slug": "bus-bay-development",
+        "thumbnail": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=800&auto=format&fit=crop",
+        "gallery": [
+          "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=1200&auto=format&fit=crop"
+        ],
+        "shortDescription": "हाईवे के मुख्य मार्ग से अलग बसों के रुकने के लिए समर्पित बस बे का निर्माण।",
+        "fullDescription": "मुख्य राजमार्ग से अलग बस बे का डिजाइन और निर्माण। यह बसों के रुकने के दौरान राजमार्ग पर यातायात की गति को बनाए रखता है और यात्रियों को सुरक्षित चढ़ने-उतरने की सुविधा प्रदान करता है।",
+        "features": [
+          "मजबूत कंक्रीट सब-बेस निर्माण",
+          "लोहे से सुदृढ़ कंक्रीट स्लैब",
+          "स्पष्ट प्रवेश और निकास लेन",
+          "विशेष रोड अंकन"
+        ],
+        "applications": [
+          "राष्ट्रीय राजमार्ग बस स्टॉप",
+          "शहरी रिंग रोड हब",
+          "अंतरराज्यीय बस मार्ग",
+          "उपनगरीय पारगमन स्थल"
+        ]
+      },
+      {
+        "title": "बस स्टॉप शेल्टर स्थापना",
+        "slug": "bus-stop-shelter",
+        "thumbnail": "https://images.unsplash.com/photo-1485738422979-f5c462d49f74?w=800&auto=format&fit=crop",
+        "gallery": [
+          "https://images.unsplash.com/photo-1485738422979-f5c462d49f74?w=1200&auto=format&fit=crop"
+        ],
+        "shortDescription": "Commuters के बैठने और छाया के लिए आधुनिक बस स्टॉप शेल्टर का निर्माण।",
+        "fullDescription": "प्रीमियम स्टेनलेस स्टील या माइल्ड स्टील बस शेल्टर का निर्माण और स्थापना। यह यात्रियों को धूप, बारिश से बचाता है और बैठने की व्यवस्था तथा मार्ग की जानकारी देने वाले बोर्ड प्रदान करता है।",
+        "features": [
+          "जंग-मुक्त स्टेनलेस स्टील (SS-304)",
+          "मजबूत पॉलीकार्बोनेट/ग्लास छत",
+          "इन-बिल्ट मजबूत बैठने की बेंच",
+          "विज्ञापन प्रदर्शन पैनल"
+        ],
+        "applications": [
+          "स्मार्ट सिटी बस मार्ग",
+          "राजमार्ग बस स्टॉप",
+          "ग्रामीण सार्वजनिक परिवहन मार्ग",
+          "शैक्षणिक संस्थान बस स्टॉप"
+        ]
+      },
+      {
+        "title": "यातायात प्रबंधन सहायक उपकरण",
+        "slug": "traffic-management-accessories",
+        "thumbnail": "https://images.unsplash.com/photo-1506526685827-02482701d4df?w=800&auto=format&fit=crop",
+        "gallery": [
+          "https://images.unsplash.com/photo-1506526685827-02482701d4df?w=1200&auto=format&fit=crop"
+        ],
+        "shortDescription": "अस्थायी यातायात नियंत्रण के लिए ट्रैफिक कोन, प्लास्टिक बैरिकेड्स और रिफ्लेक्टर्स।",
+        "fullDescription": "राजमार्ग सुरक्षा प्रबंधन के लिए आवश्यक सामानों की आपूर्ति। इसमें अत्यधिक परावर्तक और पानी से भरे जाने वाले प्लास्टिक बैरिकेड्स, अस्थायी ट्रैफिक कोन, रबर स्पीड बम्प और सोलर ब्लिंकर शामिल हैं।",
+        "features": [
+          "चोट-अवशोषक उच्च घनत्व प्लास्टिक",
+          "यूवी किरण प्रतिरोधी सामग्री",
+          "रिफ्लेक्टिव टेप कोटिंग",
+          "हल्का और ले जाने में आसान"
+        ],
+        "applications": [
+          "सड़क निर्माण कार्य क्षेत्र",
+          "पुलिस चेकिंग बैरिकेड्स",
+          "अस्थायी लेन मार्ग परिवर्तन",
+          "मॉल और व्यावसायिक पार्किंग"
+        ]
+      }
+    ]
+  },
+  {
+    "section": "भूनिर्माण और फिनिशिंग कार्य (Landscaping & Finishing Works)",
+    "services": [
+      {
+        "title": "मीडियन पौधारोपण (Median Plantation)",
+        "slug": "median-plantation",
+        "thumbnail": "https://images.unsplash.com/photo-1585223030386-3bf88a47fb8a?w=800&auto=format&fit=crop",
+        "gallery": [
+          "https://images.unsplash.com/photo-1585223030386-3bf88a47fb8a?w=1200&auto=format&fit=crop"
+        ],
+        "shortDescription": "विपरीत दिशा की गाड़ियों के हेडलाइट की चकाचौंध को रोकने के लिए झाड़ियां लगाना।",
+        "fullDescription": "सड़क के मध्य डिवाइडर पर बागवानी पौधारोपण, ताकि सामने से आ रही गाड़ियों के हेडलाइट की चकाचौंध को कम किया जा सके, धूल पर नियंत्रण हो, मिट्टी का कटाव रुके और राजमार्ग सुंदर दिखे।",
+        "features": [
+          "चकाचौंध रोकने वाली झाड़ियों का चयन",
+          "कम पानी में जीवित रहने वाले पौधे",
+          "स्वचालित ड्रिप सिंचाई प्रणाली",
+          "उपजाऊ मिट्टी और खाद की तैयारी"
+        ],
+        "applications": [
+          "राष्ट्रीय राजमार्ग डिवाइडर",
+          "एक्सप्रेसवे मीडियन",
+          "शहरी रिंग रोड डिवाइडर",
+          "फ्लाईओवर सेपरेशन बेल्ट"
+        ]
+      },
+      {
+        "title": "राजमार्ग भूनिर्माण (Highway Landscaping)",
+        "slug": "highway-landscaping",
+        "thumbnail": "https://images.unsplash.com/photo-1447752875215-b2761acb3c5d?w=800&auto=format&fit=crop",
+        "gallery": [
+          "https://images.unsplash.com/photo-1447752875215-b2761acb3c5d?w=1200&auto=format&fit=crop"
+        ],
+        "shortDescription": "मिट्टी के कटाव को रोकने के लिए सड़क के ढलानों पर हरी घास और उद्यान लगाना।",
+        "fullDescription": "राजमार्ग के तटबंधों और किनारे के ढलानों का भूनिर्माण और हरी घास (टर्फिंग) लगाना। यह बारिश के पानी से होने वाले मिट्टी के कटाव को रोकता है और मार्ग को एक हरा-भरा प्राकृतिक दृश्य प्रदान करता है।",
+        "features": [
+          "घास टर्फिंग (सोडिंग तकनीक)",
+          "ढलान संरक्षण मिट्टी एंकरिंग",
+          "पर्यावरण अनुकूल बागवानी",
+          "कम रखरखाव वाली हरियाली"
+        ],
+        "applications": [
+          "राजमार्ग के किनारे के ढलान",
+          "पुल इंटरचेंज लूप्स",
+          "टोल प्लाजा ग्रीन बेल्ट",
+          "विश्राम गृह के चारों ओर"
+        ]
+      },
+      {
+        "title": "सौंदर्यीकरण कार्य (Beautification)",
+        "slug": "beautification-works",
+        "thumbnail": "https://images.unsplash.com/photo-1473448912268-2022ce9509d8?w=800&auto=format&fit=crop",
+        "gallery": [
+          "https://images.unsplash.com/photo-1473448912268-2022ce9509d8?w=1200&auto=format&fit=crop"
+        ],
+        "shortDescription": "शहर के चौराहों पर थीम-आधारित पेंटिंग, मूर्तियाँ और सुंदर लाइटिंग लगाना।",
+        "fullDescription": "सार्वजनिक राजमार्गों और शहरी चौराहों के लिए सौंदर्य वृद्धि का कार्य, जिसमें सुंदर थीम-आधारित कलाकृतियाँ, फव्वारे, भूनिर्माण और रंग-बिरंगी लाइटिंग शामिल हैं।",
+        "features": [
+          "कस्टम सजावटी चित्रकारी (पेंटिंग)",
+          "सुंदर फोकस स्पॉटलाइटिंग",
+          "सड़क जंक्शनों पर कलात्मक मूर्तियां",
+          "उच्च गुणवत्ता वाले पेविंग ब्लॉक्स"
+        ],
+        "applications": [
+          "शहर के मुख्य प्रवेश द्वार",
+          "मुख्य गोलचक्कर",
+          "पैदल यात्री प्लाजा",
+          "पर्यटन गलियारा मार्ग"
+        ]
+      },
+      {
+        "title": "कंक्रीट जॉइंट सीलिंग (Joint Sealing)",
+        "slug": "joint-sealing",
+        "thumbnail": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800&auto=format&fit=crop",
+        "gallery": [
+          "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=1200&auto=format&fit=crop"
+        ],
+        "shortDescription": "कंक्रीट की सड़कों में पानी जाने से रोकने के लिए जॉइंट्स को रबर/सिलिकॉन से सील करना।",
+        "fullDescription": "उच्च प्रदर्शन वाले इलास्टोमेरिक सीलेंट का उपयोग करके कंक्रीट की सड़कों के जोड़ (Joints) को सील करना। यह पानी और कंकड़-पत्थरों को जोड़ों के अंदर जाने से रोकता है, जिससे सड़क टूटने से बचती है।",
+        "features": [
+          "पॉलीयुरेथेन और सिलिकॉन सीलेंट",
+          "जॉइंट कटिंग और गहराई से सफाई",
+          "उत्कृष्ट बढ़ाव और लचीलापन (Elongation)",
+          "नमी-रोधी पूर्ण सुरक्षा"
+        ],
+        "applications": [
+          "कंक्रीट (PQC) सड़कें",
+          "हवाई पट्टी के कंक्रीट जोड़",
+          "फ्लाईओवर विस्तार जोड़ (Expansion joints)",
+          "औद्योगिक फर्श"
+        ]
+      },
+      {
+        "title": "सड़क की मामूली मरम्मत और फिनिशिंग कार्य",
+        "slug": "minor-road-repairs",
+        "thumbnail": "https://images.unsplash.com/photo-1605330353139-44be7163f587?w=800&auto=format&fit=crop",
+        "gallery": [
+          "https://images.unsplash.com/photo-1605330353139-44be7163f587?w=1200&auto=format&fit=crop"
+        ],
+        "shortDescription": "सड़क के गड्ढों को भरना, डामर की पैच मरम्मत और सड़क की सफाई।",
+        "fullDescription": "सड़क हैंडओवर से पहले गड्ढे भरना, पैचवर्क, लेवल ठीक करना, सड़क के किनारों की फिनिशिंग और सफाई का कार्य। यह यातायात के लिए एक सुरक्षित और चिकनी सड़क सतह सुनिश्चित करता है।",
+        "features": [
+          "त्वरित-सेट कोल्ड इमल्शन डामर",
+          "सड़क की असमानता को ठीक करना",
+          "किनारे की दरारों को भरना",
+          "पूरी सड़क से धूल और मलबे की सफाई"
+        ],
+        "applications": [
+          "एक्सप्रेसवे रखरखाव",
+          "नगर पालिका मुख्य सड़कें",
+          "टोल प्लाजा पहुंच मार्ग",
+          "परियोजना हैंडओवर से पहले अंतिम कार्य"
         ]
       }
     ]

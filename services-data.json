@@ -94,13 +94,13 @@
         ]
       },
       {
-        "title": "Kilometer & Hectometer Stones",
+        "title": "Kilometer Stones & Hectometer Stones",
         "slug": "km-stones",
         "thumbnail": "https://images.unsplash.com/photo-1518558997970-4f51be02a28b?w=800&auto=format&fit=crop",
         "gallery": [
           "https://images.unsplash.com/photo-1518558997970-4f51be02a28b?w=1200&auto=format&fit=crop"
         ],
-        "shortDescription": "Standardized reinforced concrete milestone and hectometer stones.",
+        "shortDescription": "Standardized reinforced concrete milestones and hectometer stones.",
         "fullDescription": "We manufacture and install pre-cast reinforced concrete Kilometer and Hectometer stones conforming strictly to MoRTH and NHAI specifications, complete with durable retro-reflective lettering.",
         "features": [
           "Pre-cast RCC Construction",
@@ -121,47 +121,113 @@
     "section": "Traffic Signage & Reflective Systems",
     "services": [
       {
-        "title": "Overhead Gantry Signs",
-        "slug": "overhead-gantry",
-        "thumbnail": "https://images.unsplash.com/photo-1616851676644-8d962056973e?w=800&auto=format&fit=crop",
-        "gallery": [
-          "https://images.unsplash.com/photo-1616851676644-8d962056973e?w=1200&auto=format&fit=crop"
-        ],
-        "shortDescription": "Large overhead directional and informational gantry structures.",
-        "fullDescription": "Design, fabrication, and erection of robust overhead gantry signs for multi-lane highways. These structures support high-intensity retro-reflective sign boards for clear driver guidance at high speeds.",
-        "features": [
-          "Galvanized Steel Structure",
-          "Type IV/XI Reflective Sheeting",
-          "Wind Load Resistant",
-          "Custom Engineering"
-        ],
-        "applications": [
-          "Expressway Exits",
-          "Major Intersections",
-          "Toll Plazas",
-          "Lane Merges"
-        ]
-      },
-      {
-        "title": "Cautionary & Mandatory Signs",
-        "slug": "regulatory-signs",
+        "title": "Traffic Sign Board Installation",
+        "slug": "traffic-sign-board",
         "thumbnail": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&auto=format&fit=crop",
         "gallery": [
           "https://images.unsplash.com/photo-1518770660439-4636190af475?w=1200&auto=format&fit=crop"
         ],
-        "shortDescription": "Standardized traffic regulatory and cautionary signage boards.",
-        "fullDescription": "Manufacturing and installation of standard cautionary, mandatory, and informatory signs on sturdy GI or MS posts. All signages utilize retro-reflective sheeting as per IRC:67 guidelines.",
+        "shortDescription": "Installation of mandatory, cautionary, and informatory sign boards.",
+        "fullDescription": "Professional installation of standardized traffic sign boards on sturdy, anti-corrosive support posts. All boards are designed according to IRC standards to ensure clear road communications and regulatory compliance.",
         "features": [
-          "IRC Compliant",
-          "High-Intensity Prismatic Sheeting",
-          "Anti-corrosive Posts",
-          "Vandal Resistant Mountings"
+          "IRC:67 Compliant",
+          "Heavy-duty GI Posts",
+          "Vandal-resistant Fasteners",
+          "Weatherproof Coatings"
         ],
         "applications": [
-          "All Roads",
-          "Intersections",
-          "Pedestrian Zones",
-          "Hilly Terrains"
+          "Highways & Expressways",
+          "City & Rural Roads",
+          "Hazardous Curves",
+          "Intersection Controls"
+        ]
+      },
+      {
+        "title": "Reflective Sheeting & Signage Fixing",
+        "slug": "reflective-sheeting",
+        "thumbnail": "https://images.unsplash.com/photo-1616851676644-8d962056973e?w=800&auto=format&fit=crop",
+        "gallery": [
+          "https://images.unsplash.com/photo-1616851676644-8d962056973e?w=1200&auto=format&fit=crop"
+        ],
+        "shortDescription": "Application of high-intensity reflective sheeting for night-time visibility.",
+        "fullDescription": "High-intensity micro-prismatic reflective sheeting applied to traffic signboards for superior day and night visibility. Our sheeting provides excellent retro-reflectivity even at wide entrance angles.",
+        "features": [
+          "Type IV & Type XI Sheeting",
+          "Excellent Wide-angle Visibility",
+          "Long-term Retro-reflectivity",
+          "UV & Fade Resistant"
+        ],
+        "applications": [
+          "Gantry Sign Boards",
+          "Cautionary Warning Signs",
+          "Direction Informational Signs",
+          "Highway Guide Signs"
+        ]
+      },
+      {
+        "title": "Chevron Boards",
+        "slug": "chevron-boards",
+        "thumbnail": "https://images.unsplash.com/photo-1562920618-97c7b8061d4a?w=800&auto=format&fit=crop",
+        "gallery": [
+          "https://images.unsplash.com/photo-1562920618-97c7b8061d4a?w=1200&auto=format&fit=crop"
+        ],
+        "shortDescription": "High-visibility alignment signs for sharp curves and roundabouts.",
+        "fullDescription": "Chevron alignment signs guide drivers through sharp curves and changes in road horizontal alignment. Our chevron boards feature highly reflective sheeting and robust back-supports to withstand environmental stresses.",
+        "features": [
+          "Impact Resistant Board",
+          "Highly Reflective Chevrons",
+          "Sturdy Mounting Assembly",
+          "Standardized Colors (Yellow/Black)"
+        ],
+        "applications": [
+          "Hairpin Bends & Sharp Curves",
+          "Roundabout Perimeters",
+          "Highway Divergence Zones",
+          "Temporary Construction Detours"
+        ]
+      },
+      {
+        "title": "Object Markers",
+        "slug": "object-markers",
+        "thumbnail": "https://images.unsplash.com/photo-1543269865-cbf427effbad?w=800&auto=format&fit=crop",
+        "gallery": [
+          "https://images.unsplash.com/photo-1543269865-cbf427effbad?w=1200&auto=format&fit=crop"
+        ],
+        "shortDescription": "Reflective hazard markers placed on physical road obstructions.",
+        "fullDescription": "Object markers are installed to alert drivers to physical obstructions within or immediately adjacent to the roadway, such as bridge piers, guardrail ends, or central medians.",
+        "features": [
+          "OM1, OM2, & OM3 Variants",
+          "Strong Retro-reflection",
+          "Compact & Impact-Durable",
+          "Weatherproof Aluminum Backing"
+        ],
+        "applications": [
+          "Bridge Abutments",
+          "Median Noses & Underpasses",
+          "Guardrail Terminal Ends",
+          "Traffic Islands"
+        ]
+      },
+      {
+        "title": "Direction & Warning Sign Systems",
+        "slug": "direction-warning-signs",
+        "thumbnail": "https://images.unsplash.com/photo-1510935515250-96f7c8ec17d6?w=800&auto=format&fit=crop",
+        "gallery": [
+          "https://images.unsplash.com/photo-1510935515250-96f7c8ec17d6?w=1200&auto=format&fit=crop"
+        ],
+        "shortDescription": "Comprehensive signage systems indicating directions, distances, and warnings.",
+        "fullDescription": "Integrated direction and warning sign systems customized for major highways and urban environments. These large-format signs provide essential guidance and upcoming hazard warnings to motorists.",
+        "features": [
+          "Custom Structural Design",
+          "Clear Typography & Symbols",
+          "Corrosion-Free Framework",
+          "Long-distance Readability"
+        ],
+        "applications": [
+          "Highway Interchanges",
+          "City Approach Routes",
+          "Critical Junction Warnings",
+          "Toll Gate Guides"
         ]
       }
     ]
@@ -170,47 +236,113 @@
     "section": "Road Safety Infrastructure",
     "services": [
       {
-        "title": "Metal Crash Barriers (W-Beam)",
-        "slug": "crash-barriers",
+        "title": "W-Beam Crash Barrier Installation",
+        "slug": "w-beam-crash-barrier",
         "thumbnail": "https://images.unsplash.com/photo-1522037996500-2f986427339d?w=800&auto=format&fit=crop",
         "gallery": [
           "https://images.unsplash.com/photo-1522037996500-2f986427339d?w=1200&auto=format&fit=crop"
         ],
-        "shortDescription": "W-Beam and Thrie-Beam crash barriers for vehicle containment.",
-        "fullDescription": "Supply and installation of hot-dip galvanized W-Beam and Thrie-Beam crash barriers designed to absorb impact energy and safely redirect errant vehicles back onto the roadway.",
+        "shortDescription": "W-Beam crash barriers installed for maximum vehicle containment.",
+        "fullDescription": "Supply and professional installation of hot-dip galvanized W-Beam crash barriers. These safety systems absorb impact energy during vehicular collisions, minimizing damage and redirecting vehicles safely.",
         "features": [
-          "Hot-dip Galvanized Steel",
-          "High Energy Absorption",
-          "MoRTH Compliant",
+          "Hot-Dip Galvanized (MoRTH)",
+          "High Yield Strength Steel",
+          "Robust Post Anchor Systems",
           "End Terminal Treatments"
         ],
         "applications": [
           "Highway Embankments",
-          "Bridges & Flyovers",
-          "Valley Side of Hill Roads",
-          "Median Dividers"
+          "Hilly Terrain Roads",
+          "Bridge Approaches",
+          "High-Speed Corridors"
         ]
       },
       {
-        "title": "Wire Rope Safety Barriers",
-        "slug": "wire-rope-barriers",
+        "title": "Median Barrier Installation",
+        "slug": "median-barrier",
+        "thumbnail": "https://images.unsplash.com/photo-1541888086425-d81bb19240f5?w=800&auto=format&fit=crop",
+        "gallery": [
+          "https://images.unsplash.com/photo-1541888086425-d81bb19240f5?w=1200&auto=format&fit=crop"
+        ],
+        "shortDescription": "Concrete or metal barriers installed in the central median.",
+        "fullDescription": "Installation of robust median barriers designed to prevent cross-median head-on collisions. We offer pre-cast concrete New Jersey barriers and galvanized steel median crash barrier installations.",
+        "features": [
+          "High Vehicle Redirect Capability",
+          "Head-on Collision Prevention",
+          "Pre-cast Concrete Durability",
+          "Integrated Drainage Openings"
+        ],
+        "applications": [
+          "Dual-Carriageway Expressways",
+          "Urban Flyover Medians",
+          "Toll Road Separations",
+          "Bridges & Viaducts"
+        ]
+      },
+      {
+        "title": "Roadside Safety Barriers",
+        "slug": "roadside-safety-barriers",
         "thumbnail": "https://images.unsplash.com/photo-1494515843206-f3117d3f51b7?w=800&auto=format&fit=crop",
         "gallery": [
           "https://images.unsplash.com/photo-1494515843206-f3117d3f51b7?w=1200&auto=format&fit=crop"
         ],
-        "shortDescription": "Flexible wire rope safety barrier systems.",
-        "fullDescription": "Wire rope barriers are highly flexible safety systems that minimize vehicle damage and occupant injury during a collision. Ideal for narrow medians where rigid barriers are unsuitable.",
+        "shortDescription": "Flexible and semi-rigid roadside protection barrier systems.",
+        "fullDescription": "Comprehensive roadside safety barrier installations including wire rope safety barriers and structural steel fences. Designed to protect vehicles from roadside hazards like trees, poles, or steep drops.",
         "features": [
-          "High Flexibility",
-          "Low Deceleration Forces",
-          "Cost-effective Repair",
-          "Minimal Visual Obstruction"
+          "Flexible Deflection Performance",
+          "Sleek & Low-profile Designs",
+          "Quick Repair & Maintenance",
+          "Cost-effective Safety Guard"
         ],
         "applications": [
-          "Highway Medians",
-          "Scenic Routes",
-          "Snow-prone Areas",
-          "Narrow Shoulders"
+          "Mountain Road Valleys",
+          "Forest Route Borders",
+          "Canal-Side Highways",
+          "Utility Pole Protections"
+        ]
+      },
+      {
+        "title": "Fencing & Protection Systems",
+        "slug": "fencing-protection",
+        "thumbnail": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800&auto=format&fit=crop",
+        "gallery": [
+          "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=1200&auto=format&fit=crop"
+        ],
+        "shortDescription": "Security fencing along highways to prevent pedestrian and animal entry.",
+        "fullDescription": "Installation of boundary and median fencing systems to control access and protect traffic flow. Prevents wild animals and pedestrian jaywalking on high-speed expressways, reducing accidents.",
+        "features": [
+          "Chain Link & Weld Mesh Options",
+          "Anti-corrosive GI Materials",
+          "High Tension Durability",
+          "Secure Foundation Footings"
+        ],
+        "applications": [
+          "Expressway Boundary Walls",
+          "Central Median Glare Screens",
+          "Railway Line Borders",
+          "Airport Outer Perimeters"
+        ]
+      },
+      {
+        "title": "Bollards & Safety Devices",
+        "slug": "bollards-safety-devices",
+        "thumbnail": "https://images.unsplash.com/photo-1601053127622-4ff217e1df28?w=800&auto=format&fit=crop",
+        "gallery": [
+          "https://images.unsplash.com/photo-1601053127622-4ff217e1df28?w=1200&auto=format&fit=crop"
+        ],
+        "shortDescription": "Installation of security bollards, speed bumps, and safety devices.",
+        "fullDescription": "Supply and installation of protective bollards, height barriers, and speed calming safety devices. Used to guide vehicular flow, protect structures, and secure pedestrian pathways.",
+        "features": [
+          "Impact-resistant Steel/Concrete",
+          "Highly Reflective Bands",
+          "Removable & Fixed Options",
+          "Modern Architectural Aesthetics"
+        ],
+        "applications": [
+          "Pedestrian Walkways",
+          "Commercial Entry Gates",
+          "Toll Booth Protection",
+          "Public Squares & Parks"
         ]
       }
     ]
@@ -219,47 +351,321 @@
     "section": "Street Lighting & Electrical Works",
     "services": [
       {
-        "title": "High Mast Lighting",
-        "slug": "high-mast",
-        "thumbnail": "https://images.unsplash.com/photo-1512404097486-159670081d4a?w=800&auto=format&fit=crop",
-        "gallery": [
-          "https://images.unsplash.com/photo-1512404097486-159670081d4a?w=1200&auto=format&fit=crop"
-        ],
-        "shortDescription": "12m to 30m high mast lighting towers for large area illumination.",
-        "fullDescription": "Complete installation of High Mast lighting systems including deep foundation work, mast erection, and motorized lantern carriage assembly. Ideal for uniform illumination of large open spaces.",
-        "features": [
-          "Motorized Lowering Gear",
-          "Uniform Illumination",
-          "Aerodynamic Design",
-          "Energy Efficient LEDs"
-        ],
-        "applications": [
-          "Toll Plazas",
-          "Major Intersections",
-          "Railway Yards",
-          "Industrial Hubs"
-        ]
-      },
-      {
-        "title": "Octagonal Street Light Poles",
-        "slug": "street-lights",
+        "title": "Street Light Pole Installation",
+        "slug": "street-light-poles",
         "thumbnail": "https://images.unsplash.com/photo-1601053127622-4ff217e1df28?w=800&auto=format&fit=crop",
         "gallery": [
           "https://images.unsplash.com/photo-1601053127622-4ff217e1df28?w=1200&auto=format&fit=crop"
         ],
-        "shortDescription": "Galvanized octagonal poles with smart LED luminaires.",
-        "fullDescription": "Supply and installation of hot-dip galvanized octagonal street light poles along highways and urban roads. Equipped with energy-efficient smart LED fixtures ensuring optimal lux levels.",
+        "shortDescription": "Erection of octagonal and swaged steel street light poles.",
+        "fullDescription": "Installation of high-quality hot-dip galvanized octagonal street light poles. Designed to withstand extreme wind loads, providing safe mounting for smart LED roadway lighting.",
         "features": [
-          "Hot-dip Galvanized",
-          "Sleek Octagonal Design",
-          "Smart LED Integration",
-          "Weather Resistant"
+          "Hot-Dip Galvanized Steel",
+          "Octagonal & Swaged Designs",
+          "Anti-corrosive Base Plates",
+          "Sleek Modern Profile"
         ],
         "applications": [
-          "Highway Medians",
-          "Urban Arterial Roads",
-          "Residential Streets",
-          "Pathways"
+          "Highway Borders & Medians",
+          "Urban Arterial Streets",
+          "Residential Sectors",
+          "Industrial Complexes"
+        ]
+      },
+      {
+        "title": "Street Light Cabling & Electrical Works",
+        "slug": "street-light-cabling",
+        "thumbnail": "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?w=800&auto=format&fit=crop",
+        "gallery": [
+          "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?w=1200&auto=format&fit=crop"
+        ],
+        "shortDescription": "Underground cabling, earthing, and feeder pillar installation.",
+        "fullDescription": "Complete electrical infrastructure works for roadway illumination, including trenching, laying of heavy-duty armored cables, installation of smart feeder pillars, and proper system earthing.",
+        "features": [
+          "Heavy-duty Armored Cables",
+          "Automatic Timer Feeder Pillars",
+          "High Conductivity Earthing",
+          "Overload Protection Systems"
+        ],
+        "applications": [
+          "Highway Illumination Projects",
+          "City Street Light Networks",
+          "Bridge Lighting Electricals",
+          "Tunnel Power Infrastructures"
+        ]
+      },
+      {
+        "title": "High Mast Lighting Systems",
+        "slug": "high-mast-lighting",
+        "thumbnail": "https://images.unsplash.com/photo-1512404097486-159670081d4a?w=800&auto=format&fit=crop",
+        "gallery": [
+          "https://images.unsplash.com/photo-1512404097486-159670081d4a?w=1200&auto=format&fit=crop"
+        ],
+        "shortDescription": "Installation of 12m to 30m high mast towers for area lighting.",
+        "fullDescription": "Supply, foundation building, and erection of high mast lighting systems with motorized lowering gears. Delivers uniform, high-intensity illumination for large areas.",
+        "features": [
+          "Motorized Lantern Carriage",
+          "Robust Deep Piled Foundations",
+          "Aerodynamic Mast Structure",
+          "Energy-efficient LED Floodlights"
+        ],
+        "applications": [
+          "Major Traffic Intersections",
+          "Highway Toll Plazas",
+          "Railway & Container Yards",
+          "Sports Stadiums & Arenas"
+        ]
+      },
+      {
+        "title": "Roadway Lighting Infrastructure",
+        "slug": "roadway-lighting",
+        "thumbnail": "https://images.unsplash.com/photo-1509395062183-67c5ad6faff9?w=800&auto=format&fit=crop",
+        "gallery": [
+          "https://images.unsplash.com/photo-1509395062183-67c5ad6faff9?w=1200&auto=format&fit=crop"
+        ],
+        "shortDescription": "Implementation of energy-efficient smart LED roadway lighting.",
+        "fullDescription": "End-to-end roadway lighting projects incorporating energy-saving LED luminaires, brightness control sensors, and central monitoring systems to ensure optimal road lux levels.",
+        "features": [
+          "Smart Dimming Controls",
+          "High Lumen Output LEDs",
+          "Ingress Protection (IP66)",
+          "Surge Protection Devices"
+        ],
+        "applications": [
+          "National Highways",
+          "Flyovers & Underpasses",
+          "Airport Runway Areas",
+          "Smart City Road Networks"
+        ]
+      }
+    ]
+  },
+  {
+    "section": "Road Furniture & Urban Infrastructure",
+    "services": [
+      {
+        "title": "Kerb Stone Installation",
+        "slug": "kerb-stone-installation",
+        "thumbnail": "https://images.unsplash.com/photo-1590496839352-7b5879a95022?w=800&auto=format&fit=crop",
+        "gallery": [
+          "https://images.unsplash.com/photo-1590496839352-7b5879a95022?w=1200&auto=format&fit=crop"
+        ],
+        "shortDescription": "Laying of pre-cast or cast-in-situ concrete kerb stones.",
+        "fullDescription": "Installation of high-quality concrete kerb stones along road edges and medians. Provides structural support to pavement margins, aids in drainage, and clearly separates vehicular channels.",
+        "features": [
+          "Pre-cast Concrete M-25 Grade",
+          "Accurate Height Alignment",
+          "Retro-reflective Painting",
+          "Integrated Drainage Slots"
+        ],
+        "applications": [
+          "Highway Median Edges",
+          "Pedestrian Sidewalks",
+          "Parking Lot Perimeters",
+          "Urban Arterial Channels"
+        ]
+      },
+      {
+        "title": "Road Furniture Installation",
+        "slug": "road-furniture",
+        "thumbnail": "https://images.unsplash.com/photo-1628189679199-31e8471c9902?w=800&auto=format&fit=crop",
+        "gallery": [
+          "https://images.unsplash.com/photo-1628189679199-31e8471c9902?w=1200&auto=format&fit=crop"
+        ],
+        "shortDescription": "Fixing of traffic barriers, delineator posts, and informational kiosks.",
+        "fullDescription": "Installation of secondary road components (road furniture) to maximize comfort, utility, and safety. Includes street benches, litter bins, boundary pillars, and solar traffic beacons.",
+        "features": [
+          "Weather-resistant Materials",
+          "Sturdy Concrete Anchorage",
+          "Aesthetic & Ergonomic Designs",
+          "Vandal-proof Construction"
+        ],
+        "applications": [
+          "Highways & Rest Areas",
+          "Public Transit Hubs",
+          "Smart City Walkways",
+          "Scenic Viewpoints"
+        ]
+      },
+      {
+        "title": "Bus Bay Development",
+        "slug": "bus-bay-development",
+        "thumbnail": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=800&auto=format&fit=crop",
+        "gallery": [
+          "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=1200&auto=format&fit=crop"
+        ],
+        "shortDescription": "Civil works for dedicated bus stopping lanes off the main highway.",
+        "fullDescription": "Design and construction of segregated bus bays. Promotes safe passenger boarding and alighting while keeping the main highway lanes free from bus-induced traffic congestion.",
+        "features": [
+          "Heavy Pavement Sub-base",
+          "Reinforced Concrete Slabs",
+          "Clear Entry/Exit Tapers",
+          "Integrated Road Markings"
+        ],
+        "applications": [
+          "National Highway Stopages",
+          "City Ring Road Hubs",
+          "Interstate Route Points",
+          "Suburban Transit Locations"
+        ]
+      },
+      {
+        "title": "Bus Stop Shelter Installation",
+        "slug": "bus-stop-shelter",
+        "thumbnail": "https://images.unsplash.com/photo-1485738422979-f5c462d49f74?w=800&auto=format&fit=crop",
+        "gallery": [
+          "https://images.unsplash.com/photo-1485738422979-f5c462d49f74?w=1200&auto=format&fit=crop"
+        ],
+        "shortDescription": "Fabrication and erection of modern passenger waiting shelters.",
+        "fullDescription": "Manufacturing and erection of premium stainless steel or mild steel bus shelters. Designed to provide weather shelter, seating, and route information to commuters.",
+        "features": [
+          "Rust-proof Stainless Steel (SS-304)",
+          "Polycarbonate or Glass Canopy",
+          "Built-in Commuter Benches",
+          "Advertising Display Panels"
+        ],
+        "applications": [
+          "Smart City Bus Routes",
+          "Highway Passenger Bays",
+          "Rural Transit Terminus",
+          "Educational Campus Stops"
+        ]
+      },
+      {
+        "title": "Traffic Management Accessories",
+        "slug": "traffic-management-accessories",
+        "thumbnail": "https://images.unsplash.com/photo-1506526685827-02482701d4df?w=800&auto=format&fit=crop",
+        "gallery": [
+          "https://images.unsplash.com/photo-1506526685827-02482701d4df?w=1200&auto=format&fit=crop"
+        ],
+        "shortDescription": "Supply of traffic cones, plastic barricades, and speed bumps.",
+        "fullDescription": "Supply of highway management safety accessories. Includes highly reflective plastic water-fillable barriers, temporary traffic cones, speed bumps, and solar warning blinkers.",
+        "features": [
+          "Impact-absorbing Plastics",
+          "UV Stabilized Materials",
+          "Reflective Sheet Coatings",
+          "Lightweight & Portable"
+        ],
+        "applications": [
+          "Construction Work Zones",
+          "Police Checking Barricades",
+          "Temporary Lane Detours",
+          "Shopping Mall Parking Lots"
+        ]
+      }
+    ]
+  },
+  {
+    "section": "Landscaping & Finishing Works",
+    "services": [
+      {
+        "title": "Median Plantation",
+        "slug": "median-plantation",
+        "thumbnail": "https://images.unsplash.com/photo-1500627869374-13cd993b1115?w=800&auto=format&fit=crop",
+        "gallery": [
+          "https://images.unsplash.com/photo-1500627869374-13cd993b1115?w=1200&auto=format&fit=crop"
+        ],
+        "shortDescription": "Planting shrubs and small trees along the highway central median.",
+        "fullDescription": "Horticultural median plantation to reduce opposite-lane headlight glare, control dust, prevent soil erosion, and beautify national highways.",
+        "features": [
+          "Glare-blocking Shrub Selection",
+          "Drought-resistant Species",
+          "Automatic Drip Irrigation Setup",
+          "Soil Nutrient Preparation"
+        ],
+        "applications": [
+          "National Highway Medians",
+          "Expressway Divider Zones",
+          "City Ring Road Divides",
+          "Flyover Separation Strips"
+        ]
+      },
+      {
+        "title": "Highway Landscaping",
+        "slug": "highway-landscaping",
+        "thumbnail": "https://images.unsplash.com/photo-1447752875215-b2761acb3c5d?w=800&auto=format&fit=crop",
+        "gallery": [
+          "https://images.unsplash.com/photo-1447752875215-b2761acb3c5d?w=1200&auto=format&fit=crop"
+        ],
+        "shortDescription": "Horticultural and turfing works on highway side slopes.",
+        "fullDescription": "Systematic landscaping and turfing of highway embankments and side slopes. Helps stabilize slopes against rain erosion and provides a green scenic corridor.",
+        "features": [
+          "Grass Turfing (Sodding)",
+          "Embankment Soil Anchoring",
+          "Eco-friendly Landscaping",
+          "Low-maintenance Foliage"
+        ],
+        "applications": [
+          "Highway Side Slopes",
+          "Bridge Interchange Loops",
+          "Toll Plaza Green Belts",
+          "Rest Area Surroundings"
+        ]
+      },
+      {
+        "title": "Beautification Works",
+        "slug": "beautification-works",
+        "thumbnail": "https://images.unsplash.com/photo-1473448912268-2022ce9509d8?w=800&auto=format&fit=crop",
+        "gallery": [
+          "https://images.unsplash.com/photo-1473448912268-2022ce9509d8?w=1200&auto=format&fit=crop"
+        ],
+        "shortDescription": "Urban beautification, thematic sculptures, and decorative finishes.",
+        "fullDescription": "Aesthetic enhancement works for public highways and urban junctions, including theme-based paintings, landscaping with fountains, and dynamic lighting installations.",
+        "features": [
+          "Custom Decorative Painting",
+          "Integrated Focus Spotlights",
+          "Thematic Civil Sculptures",
+          "High-quality Paving Tiles"
+        ],
+        "applications": [
+          "City Entry Gateways",
+          "Major Roundabouts",
+          "Pedestrian Walkway Plazas",
+          "Tourist Corridor Routes"
+        ]
+      },
+      {
+        "title": "Joint Sealing",
+        "slug": "joint-sealing",
+        "thumbnail": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800&auto=format&fit=crop",
+        "gallery": [
+          "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=1200&auto=format&fit=crop"
+        ],
+        "shortDescription": "Sealing contraction and expansion joints in concrete pavements.",
+        "fullDescription": "Joint sealing of concrete pavements using high-performance elastomeric sealants. Prevents water ingress and debris collection in expansion joints, protecting the road structure.",
+        "features": [
+          "Polyurethane & Silicone Sealants",
+          "Pre-seal Grooving & Cleaning",
+          "Excellent Elongation Recovery",
+          "Moisture-proof Sealing"
+        ],
+        "applications": [
+          "Concrete (PQC) Roads",
+          "Airport Runway Joints",
+          "Flyover Slab Expansion Joints",
+          "Industrial Concrete Floors"
+        ]
+      },
+      {
+        "title": "Minor Road Repair & Finishing Works",
+        "slug": "minor-road-repairs",
+        "thumbnail": "https://images.unsplash.com/photo-1515162305285-0293e4767cc2?w=800&auto=format&fit=crop",
+        "gallery": [
+          "https://images.unsplash.com/photo-1515162305285-0293e4767cc2?w=1200&auto=format&fit=crop"
+        ],
+        "shortDescription": "Pothole filling, asphalt patch repair, and road finishing.",
+        "fullDescription": "Execution of maintenance works like potholes patching, surface leveling, cleaning, and edge restoration. Ensures a seamless, safe, and clean roadway surface prior to opening.",
+        "features": [
+          "Rapid Setting Cold Emulsions",
+          "Pavement Level Correction",
+          "Edge Crack Sealing",
+          "Debris & Dust Clearance"
+        ],
+        "applications": [
+          "Expressway Maintenance",
+          "Municipal Main Roads",
+          "Toll Plaza Access Lanes",
+          "Before-hand Project Handover"
         ]
       }
     ]
