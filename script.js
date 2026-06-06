@@ -321,6 +321,20 @@ document.addEventListener("DOMContentLoaded", () => {
         contactForm.addEventListener('submit', async function(e) {
             e.preventDefault();
 
+            // Submit button click hote hi keyboard hata do
+            if (document.activeElement) {
+                document.activeElement.blur();
+            }
+            
+            // Smooth scroll for mobile to keep user focused
+            const formWrapper = document.getElementById('form-container-wrapper');
+            if (formWrapper) {
+                formWrapper.scrollIntoView({ 
+                    behavior: 'smooth', 
+                    block: 'nearest' 
+                });
+            }
+
             const formSection = document.getElementById('form-section');
             const successCard = document.getElementById('success-card');
             const errorAlert = document.getElementById('form-error');
