@@ -325,6 +325,22 @@
     <div id="footer-container"></div>
 
     <script src="script.js"></script>
+    <script>
+        function openEmail(email) {
+            const isMobile = /Android|iPhone|iPad|iPod|Opera Mini|IEMobile|WPDesktop/i.test(navigator.userAgent);
+
+            if (isMobile) {
+                // Mobile par mail app open hogi
+                window.location.href = `mailto:${email}`;
+            } else {
+                // Desktop/Laptop par Gmail compose open hoga
+                window.open(
+                    `https://mail.google.com/mail/?view=cm&fs=1&to=${email}`,
+                    '_blank'
+                );
+            }
+        }
+    </script>
 </body>
 
 </html>
