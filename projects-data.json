@@ -1,0 +1,57 @@
+[
+  {
+    "category": "Highway",
+    "title": "Colony Road Project",
+    "image": "Assets/Colony highway.jpg",
+    "images": [
+      "Assets/Colony highway1.jpg",
+      "Assets/Colony highway2.jpg",
+      "Assets/Colony highway3.jpg"
+    ],
+    "location": "Bhatinda, Punjab",
+    "scope": "Length: 5 Kilometers",
+    "client": "Client: Public Works Department (PWD)"
+  },
+  {
+    "category": "Inter Locking",
+    "title": "Colony Road Interlocking",
+    "image": "Assets/Interlocking.jpg",
+    "images": [
+      "Assets/Interlocking1.jpg",
+      "Assets/Interlocking2.jpg",
+      "Assets/Interlocking3.jpg",
+      "Assets/Interlocking4.jpg"
+    ],
+    "location": "Metropolitan City Circle",
+    "scope": "Area: 120,000 Sq. Meters",
+    "client": "Client: Municipal Corporation"
+  },
+  {
+    "category": "Road Markings",
+    "title": "Colony Road Markings",
+    "image": "Assets/Road Marking.jpg",
+    "images": [
+      "Assets/Road Marking.jpg",
+      "Assets/Road Marking1.jpg",
+      "Assets/Road Marking2.jpg",
+      "Assets/Road Marking3.jpg"
+    ],
+    "location": "National Expressway E-4",
+    "scope": "Scope: 85 Kilometers Thermoplastic",
+    "client": "Client: Municipal Corporation"
+  },
+  {
+    "category": "Road Patch Work",
+    "title": "City Road Patch Work",
+    "image": "Assets/road patch.jpg",
+    "images": [
+      "Assets/road patch.jpg",
+      "Assets/road patch1.jpg",
+      "Assets/road patch2.jpg",
+      "Assets/road patch3.jpg"
+    ],
+    "location": "Lorda Village Bundi, District Bundi",
+    "scope": "Scope: Patching work on national highway",
+    "client": "Client: Municipal Corporation"
+  }
+]

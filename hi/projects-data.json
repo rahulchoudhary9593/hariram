@@ -1,0 +1,57 @@
+[
+  {
+    "category": "हाईवे",
+    "title": "कॉलोनी रोड प्रोजेक्ट",
+    "image": "Assets/Colony highway.jpg",
+    "images": [
+      "../Assets/Colony highway1.jpg",
+      "../Assets/Colony highway2.jpg",
+      "../Assets/Colony highway3.jpg"
+    ],
+    "location": "भठिंडा, पंजाब",
+    "scope": "लंबाई: 5 किलोमीटर",
+    "client": "क्लाइंट: सार्वजनिक निर्माण विभाग (PWD)"
+  },
+  {
+    "category": "इंटर लॉकिंग",
+    "title": "कॉलोनी रोड इंटरलॉकिंग",
+    "image": "../Assets/Interlocking.jpg",
+    "images": [
+      "../Assets/Interlocking1.jpg",
+      "../Assets/Interlocking2.jpg",
+      "../Assets/Interlocking3.jpg",
+      "../Assets/Interlocking4.jpg"
+    ],
+    "location": "मेट्रोपॉलिटन सिटी सर्कल",
+    "scope": "क्षेत्रफल: 120,000 वर्ग मीटर",
+    "client": "क्लाइंट: नगर निगम"
+  },
+  {
+    "category": "रोड मार्किंग",
+    "title": "कॉलोनी रोड मार्किंग",
+    "image": "../Assets/Road Marking.jpg",
+    "images": [
+      "../Assets/Road Marking.jpg",
+      "../Assets/Road Marking1.jpg",
+      "../Assets/Road Marking2.jpg",
+      "../Assets/Road Marking3.jpg"
+    ],
+    "location": "नेशनल एक्सप्रेसवे E-4",
+    "scope": "कार्यक्षेत्र: 85 किलोमीटर थर्मोप्लास्टिक",
+    "client": "क्लाइंट: नगर निगम"
+  },
+  {
+    "category": "रोड पैच वर्क",
+    "title": "सिटी रोड पैच वर्क",
+    "image": "../Assets/road patch.jpg",
+    "images": [
+      "../Assets/road patch.jpg",
+      "../Assets/road patch1.jpg",
+      "../Assets/road patch2.jpg",
+      "../Assets/road patch3.jpg"
+    ],
+    "location": "लोरदा गांव, बूंदी, जिला बूंदी",
+    "scope": "कार्यक्षेत्र: नेशनल हाईवे पर पैचिंग का कार्य",
+    "client": "क्लाइंट: नगर निगम"
+  }
+]
