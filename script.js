@@ -74,6 +74,30 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     }
 
+    // Function to update all image sources on the page to match active language structure
+    function updateAllImageSources() {
+        const images = document.querySelectorAll('img:not([data-processed])');
+        images.forEach(img => {
+            const src = img.getAttribute('src');
+            if (!src || src.startsWith('http') || src.startsWith('data:') || src.startsWith('/')) {
+                return;
+            }
+
+            if (src.startsWith('Assets/')) {
+                let targetSrc = src;
+                if (window.location.protocol === 'file:') {
+                    if (isHindi) {
+                        targetSrc = '../' + src;
+                    }
+                } else {
+                    targetSrc = '/' + src;
+                }
+                img.setAttribute('src', targetSrc);
+                img.dataset.processed = 'true';
+            }
+        });
+    }
+
     window.toggleLang = function (lang) {
         localStorage.setItem('preferredLanguage', lang);
 
@@ -151,6 +175,7 @@ document.addEventListener("DOMContentLoaded", () => {
         .then(data => {
             document.getElementById('header-container').innerHTML = data;
             updateAllPageLinks(); // Update header links immediately
+            updateAllImageSources(); // Update image sources immediately
             initializeHeaderFunctions();
         })
         .catch(error => console.error('Error loading header:', error));
@@ -168,11 +193,13 @@ document.addEventListener("DOMContentLoaded", () => {
                 yearEl.textContent = new Date().getFullYear();
             }
             updateAllPageLinks(); // Update footer links immediately
+            updateAllImageSources(); // Update image sources immediately
         })
         .catch(error => console.error('Error loading footer:', error));
 
     // Update body links that already exist in HTML
     updateAllPageLinks();
+    updateAllImageSources();
 
     function initializeHeaderFunctions() {
         const currentPageName = getCleanPageName(window.location.pathname);
