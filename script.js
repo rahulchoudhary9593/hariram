@@ -85,12 +85,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
             if (src.startsWith('Assets/')) {
                 let targetSrc = src;
-                if (window.location.protocol === 'file:') {
-                    if (isHindi) {
-                        targetSrc = '../' + src;
-                    }
-                } else {
-                    targetSrc = '/' + src;
+                if (isHindi) {
+                    targetSrc = '../' + src;
                 }
                 img.setAttribute('src', targetSrc);
                 img.dataset.processed = 'true';
