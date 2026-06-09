@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 80" fill="none">
+  <!-- Group for Logo Icon -->
+  <g transform="translate(10, 10)">
+    <!-- Outer Rounded Square Container -->
+    <rect width="60" height="60" rx="18" fill="#111827"/>
+    
+    <!-- Subtle inner border -->
+    <rect x="2" y="2" width="56" height="56" rx="16" stroke="#FBBF24" stroke-width="1.5" stroke-opacity="0.4"/>
+
+    <!-- Road perspective base -->
+    <path d="M30 10 L8 50 H52 L30 10 Z" fill="#1F2937"/>
+
+    <!-- Road side borders (Yellow markings) -->
+    <path d="M30 10 L8 50" stroke="#FBBF24" stroke-width="4" stroke-linecap="round"/>
+    <path d="M30 10 L52 50" stroke="#FBBF24" stroke-width="4" stroke-linecap="round"/>
+
+    <!-- Center dashed line (White) -->
+    <path d="M30 12 L30 48" stroke="#FFFFFF" stroke-width="2.5" stroke-dasharray="6 6" stroke-linecap="round"/>
+
+    <!-- Reflection glow at the horizon -->
+    <circle cx="30" cy="10" r="3" fill="#FBBF24" opacity="0.8"/>
+  </g>
+
+  <!-- Typography -->
+  <!-- "DM" in brand primary color -->
+  <text x="85" y="50" font-family="'Manrope', 'Inter', 'Helvetica Neue', sans-serif" font-size="30" font-weight="800" fill="#FBBF24" letter-spacing="0.5">DM</text>
+  
+  <!-- "Road Work" in dark gray/black -->
+  <text x="140" y="50" font-family="'Manrope', 'Inter', 'Helvetica Neue', sans-serif" font-size="30" font-weight="800" fill="#111827" letter-spacing="0.5">Road Work</text>
+</svg>
